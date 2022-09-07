@@ -1,13 +1,14 @@
-
 export const trueBlack = '#000000'
 
-export const digitalWhite = '#F1f0ED'
+export const knowitDigitalWhite = '#F1f0ED'
 
-export const hooverColor = '#B7DEBD'
+export const knowitSand = '#F1F0ED'
 
-export const accentColor = '#FF00FF'
+export const knowitPear = '#B7DEBD'
 
-export const digitalBlack = '#333333'
+export const knowitDigitalLolipop = '#FF00FF'
+
+export const knowitDigitalBlack = '#333333'
 
 export const grey70 = '#4D4D4D'
 

@@ -1,7 +1,12 @@
 declare module '@mui/material/Paper' {
-    interface PaperPropsVariantOverrides {
-      kdsTransparentPaper: true
-      kdsMobilePaper: true
-    }
+  interface PaperPropsVariantOverrides {
+    transparent: true
   }
-  
+}
+
+declare module '@mui/material/Button' {
+  interface ButtonPropsVariantOverrides {
+    rounded: true
+    navigation: true
+  }
+}

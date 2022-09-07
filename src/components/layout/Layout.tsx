@@ -1,5 +1,5 @@
 import { Box, Grid, Stack, styled } from '@mui/material'
-import { digitalBlack } from '../../styles/colors'
+import { knowitDigitalBlack } from '../../styles/colors'
 import { KDS_Logo_White } from '../../utils/svgExporter'
 import { Background } from './Background'
 import { Navigation } from './Navigation'
@@ -10,7 +10,7 @@ const MainStack = styled(Stack)(({ theme }) => ({
   position: 'relative',
   transition: '0.3s',
   [theme.breakpoints.down('sm')]: {
-    backgroundColor: digitalBlack,
+    backgroundColor: knowitDigitalBlack,
   },
 }))
 

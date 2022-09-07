@@ -1,12 +1,12 @@
 import { Grid, Typography } from '@mui/material'
 import { NextPage } from 'next'
 import Image from 'next/image'
-import { FadeInPaper } from '../components/papers/FadeInPaper'
+import { ZoomInPaper } from '../components/papers/ZoomInPaper'
 import { KDS_Logo_Black, KDS_Logo_White } from '../utils/svgExporter'
 
 const LogoPage: NextPage = () => {
   return (
-    <FadeInPaper fadeInMs={0}>
+    <ZoomInPaper fadeInMs={0}>
       <Grid item xs={12}>
         <Typography variant='body2'>KDS logo White SVG</Typography>
       </Grid>
@@ -47,7 +47,7 @@ const LogoPage: NextPage = () => {
           />
         </Grid>
       </Grid>
-    </FadeInPaper>
+    </ZoomInPaper>
   )
 }
 

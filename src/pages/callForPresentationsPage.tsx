@@ -1,8 +1,8 @@
 import { NextPage } from 'next'
-import { FadeInPaper } from '../components/papers/FadeInPaper'
+import { ZoomInPaper } from '../components/papers/ZoomInPaper'
 
 const CallForPresentationsPage: NextPage = () => {
-  return <FadeInPaper fadeInMs={2000}>banana</FadeInPaper>
+  return <ZoomInPaper fadeInMs={2000}>banana</ZoomInPaper>
 }
 
 export default CallForPresentationsPage
