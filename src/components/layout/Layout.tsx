@@ -1,6 +1,5 @@
 import { Box, Grid, Stack, styled } from '@mui/material'
 import { knowitDigitalBlack } from '../../styles/colors'
-import { KDS_Logo_White } from '../../utils/svgExporter'
 import { Background } from './Background'
 import { Navigation } from './Navigation'
 
@@ -38,7 +37,6 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
             sx={{ width: { sm: '500px', xs: '300px' }, transition: '0.3s' }}
             margin={4}
           >
-            <KDS_Logo_White />
           </Box>
         </Grid>
       </Grid>
