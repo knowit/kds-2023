@@ -17,7 +17,7 @@ const HomePage: NextPage = () => {
   return (
     <ZoomInPaper fadeInMs={3000}>
       <Grid container spacing={2}>
-        <Grid item xs={12} justifyContent='center' marginBottom={4}>
+        <Grid item xs={12} justifyContent='center' marginBottom={4} maxWidth='100%'>
             <KDS_Logo_White sx={{ width: '500px' }} />
         </Grid>
         <Grid item xs={12} width={500} display='flex' justifyContent='center' marginBottom={3}>

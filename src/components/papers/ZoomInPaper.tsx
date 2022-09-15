@@ -14,7 +14,7 @@ export const ZoomInPaper = ({
 }) => {
   return (
     <Grid container justifyContent='center' alignContent='center'>
-      <Grid item>
+      <Grid item maxWidth='100%'>
         <Zoom in timeout={fadeInMs}>
           <Paper variant={'transparent'}>{children}</Paper>
         </Zoom>

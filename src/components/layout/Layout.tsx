@@ -9,7 +9,6 @@ const MainStack = styled(Stack)(({ theme }) => ({
   position: 'relative',
   transition: '0.3s',
   [theme.breakpoints.down('sm')]: {
-    backgroundColor: knowitDigitalBlack,
   },
 }))
 

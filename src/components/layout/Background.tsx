@@ -11,14 +11,13 @@ export const Background = () => {
         height: '100%',
         position: 'absolute',
         zIndex: '-10',
-        display: isMobile ? 'none' : 'block',
       }}
     >
       <Image
         src={'/static/images/Main_DotPattern.jpg'}
         layout='fill'
         objectFit='cover'
-        objectPosition='center'
+        objectPosition='top'
         alt='Dotmap image of Denmark, highlighting Copenhagen in pink'
       />
     </Box>
