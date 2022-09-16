@@ -1,9 +1,9 @@
 import { Grid, Typography } from '@mui/material'
 import { NextPage } from 'next'
-import { GlassPaper } from '../components/papers/StyledPapers'
-import { ZoomInPaper } from '../components/papers/ZoomInPaper'
+import { GlassPaper } from '../src/components/papers/StyledPapers'
+import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 
-const CodeOfConduitPage: NextPage = () => {
+const CodeOfConductPage: NextPage = () => {
   return (
     <ZoomInPaper fadeInMs={2000}>
       <GlassPaper>
@@ -124,4 +124,4 @@ const CodeOfConduitPage: NextPage = () => {
   )
 }
 
-export default CodeOfConduitPage
+export default CodeOfConductPage

@@ -56,12 +56,13 @@ interface NavItems {
   label: string
 }
 const navItems: NavItems[] = [
-  { href: '/aboutUsPage', label: 'About' },
+  /* { href: '/aboutKdsPage', label: 'About' },
   { href: '/practicalitiesPage', label: 'Practicalities' },
   { href: '/registrationPage', label: 'Registration' },
-  { href: '/callForPresentationPage', label: 'CFP' },
-  { href: '/codeOfConduitPage', label: 'Code of Conduit' },
-  // { href: 'https://kds-2021.knowit.no/', label: 'KDS 2021' }, Page is down, add when it is back
+  { href: '/callForPresentationsPage', label: 'CFP' },
+  { href: '/codeOfConductPage', label: 'Code of Conduct' },
+  // { href: 'https://kds-2021.knowit.no/', label: 'KDS 2021' }, Page is down, add when it is back 
+  */
 ]
 
 export const Navigation = () => {

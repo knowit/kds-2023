@@ -1,10 +1,10 @@
 import { Grid, styled, Link } from '@mui/material'
 import { NextPage } from 'next'
-import { ZoomInPaper } from '../components/papers/ZoomInPaper'
-import { KDS_Logo_White } from '../utils/svgExporter'
+import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
+import { KDS_Logo_White } from '../src/utils/svgExporter'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 
-import { TransparentPaper } from '../components/papers/StyledPapers'
+import { TransparentPaper } from '../src/components/papers/StyledPapers'
 
 const HighlightedText = styled('div')({
   color: 'white',
@@ -15,7 +15,7 @@ const HighlightedText = styled('div')({
   fontSize: '1rem',
 })
 
-const HomePage: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <ZoomInPaper fadeInMs={3000}>
       <TransparentPaper>
@@ -79,4 +79,4 @@ const HomePage: NextPage = () => {
   )
 }
 
-export default HomePage
+export default Home

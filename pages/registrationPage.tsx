@@ -1,11 +1,11 @@
 import { Grid, styled, Typography } from '@mui/material'
 import { NextPage } from 'next'
 import Link from 'next/link'
-import { ZoomInPaper } from '../components/papers/ZoomInPaper'
+import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
-import { knowitDigitalLolipop, knowitSand } from '../styles/colors'
-import { GlassPaper } from '../components/papers/StyledPapers'
-import { RoundedButton } from '../components/papers/StyledButtons'
+import { knowitDigitalLolipop, knowitSand } from '../src/styles/colors'
+import { GlassPaper } from '../src/components/papers/StyledPapers'
+import { RoundedButton } from '../src/components/papers/StyledButtons'
 const StyledAnchor = styled('a')({
   color: knowitSand,
   textUnderlineOffset: '3px',
@@ -29,7 +29,7 @@ const RegistrationPage: NextPage = () => {
               </Link>
               . This registration is for general participation, if you are
               submitting a talk, please go through{' '}
-              <Link href='/practicalitiesPage' passHref>
+              <Link href='/callForPresentationsPage' passHref>
                 <StyledAnchor>call for presentations</StyledAnchor>
               </Link>{' '}
               instead.

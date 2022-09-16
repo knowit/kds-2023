@@ -1,12 +1,11 @@
-import styled from '@emotion/styled'
-import { Grid, Typography } from '@mui/material'
+import { Grid, Typography, styled } from '@mui/material'
 import { NextPage } from 'next'
 import Link from 'next/link'
-import { ZoomInPaper } from '../components/papers/ZoomInPaper'
-import { knowitDigitalLolipop, knowitSand } from '../styles/colors'
+import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
+import { knowitDigitalLolipop, knowitSand } from '../src/styles/colors'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
-import { GlassPaper } from '../components/papers/StyledPapers'
-import { RoundedButton } from '../components/papers/StyledButtons'
+import { GlassPaper } from '../src/components/papers/StyledPapers'
+import { RoundedButton } from '../src/components/papers/StyledButtons'
 
 const StyledAnchor = styled('a')({
   color: knowitSand,
@@ -14,7 +13,7 @@ const StyledAnchor = styled('a')({
   textDecorationColor: knowitDigitalLolipop,
 })
 
-const CallForPresentationPage: NextPage = () => {
+const CallForPresentationsPage: NextPage = () => {
   return (
     <ZoomInPaper fadeInMs={2000}>
       <GlassPaper>
@@ -115,4 +114,4 @@ const CallForPresentationPage: NextPage = () => {
   )
 }
 
-export default CallForPresentationPage
+export default CallForPresentationsPage

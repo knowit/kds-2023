@@ -1,9 +1,9 @@
 import { Grid, Typography } from '@mui/material'
 import { NextPage } from 'next'
-import { GlassPaper } from '../components/papers/StyledPapers'
-import { ZoomInPaper } from '../components/papers/ZoomInPaper'
+import { GlassPaper } from '../src/components/papers/StyledPapers'
+import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 
-const AboutUsPage: NextPage = () => {
+const AboutKdsPage: NextPage = () => {
   return (
     <ZoomInPaper fadeInMs={2000}>
       <GlassPaper>
@@ -73,4 +73,4 @@ const AboutUsPage: NextPage = () => {
   )
 }
 
-export default AboutUsPage
+export default AboutKdsPage
