@@ -10,8 +10,8 @@ import {
 } from '@mui/material'
 import Link from 'next/link'
 import { grey70, knowitPear, knowitSand, trueBlack } from '../../styles/colors'
-import { KDS_Logo_White } from '../../utils/svgExporter'
 import MenuIcon from '@mui/icons-material/Menu'
+import { KdsLogo } from '../svgs/KdsLogo'
 
 const StyledIcon = styled(MenuIcon)({
   fontSize: '40px',
@@ -56,13 +56,12 @@ interface NavItems {
   label: string
 }
 const navItems: NavItems[] = [
-  /* { href: '/aboutKdsPage', label: 'About' },
+  { href: '/aboutKdsPage', label: 'About' },
   { href: '/practicalitiesPage', label: 'Practicalities' },
   { href: '/registrationPage', label: 'Registration' },
   { href: '/callForPresentationsPage', label: 'CFP' },
   { href: '/codeOfConductPage', label: 'Code of Conduct' },
-  // { href: 'https://kds-2021.knowit.no/', label: 'KDS 2021' }, Page is down, add when it is back 
-  */
+  // { href: 'https://kds-2021.knowit.no/', label: 'KDS 2021' }, Page is down, add when it is back
 ]
 
 export const Navigation = () => {
@@ -79,7 +78,7 @@ export const Navigation = () => {
       <Grid item key={'home'} xs='auto' justifyContent={'left'}>
         <Link href={'/'} passHref>
           <Box sx={{ width: '200px', cursor: 'pointer' }}>
-            <KDS_Logo_White />
+            <KdsLogo />
           </Box>
         </Link>
       </Grid>

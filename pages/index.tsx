@@ -1,10 +1,11 @@
-import { Grid, styled, Link } from '@mui/material'
+import { Grid, styled, Link as MuiLink } from '@mui/material'
 import { NextPage } from 'next'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
-import { KDS_Logo_White } from '../src/utils/svgExporter'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 
 import { TransparentPaper } from '../src/components/papers/StyledPapers'
+import { KdsLogo } from '../src/components/svgs/KdsLogo'
+import Link from 'next/link'
 
 const HighlightedText = styled('div')({
   color: 'white',
@@ -27,7 +28,7 @@ const Home: NextPage = () => {
             marginBottom={4}
             maxWidth='100%'
           >
-            <KDS_Logo_White sx={{ width: '500px' }} />
+            <KdsLogo />
           </Grid>
           <Grid
             item
@@ -48,29 +49,37 @@ const Home: NextPage = () => {
             alignItems='center'
           >
             <Link
-              href='/'
-              underline='hover'
-              variant='body1'
-              color='white'
-              marginBottom={2}
-              fontSize='1rem'
-              width={200}
-              display='flex'
+              href='https://docs.google.com/forms/d/1ocxcrA5D20Iss7Z4Ynv4d-ryCAeNBJxk-mCb0JOC-Kk'
+              passHref
             >
-              <ArrowForwardIcon sx={{ marginRight: '10px' }} />
-              Register speaker
+              <MuiLink
+                underline='hover'
+                variant='body1'
+                color='white'
+                marginBottom={2}
+                fontSize='1rem'
+                width={200}
+                display='flex'
+              >
+                <ArrowForwardIcon sx={{ marginRight: '10px' }} />
+                Register speaker
+              </MuiLink>
             </Link>
             <Link
-              href='/'
-              underline='hover'
-              variant='body1'
-              color='white'
-              fontSize='1rem'
-              width={200}
-              display='flex'
+              href='https://docs.google.com/forms/d/1dng5h2hiLN8Bor55JnGxwK1mCAF8t90bnGu8zRnEjAE'
+              passHref
             >
-              <ArrowForwardIcon sx={{ marginRight: '10px' }} />
-              Register participant
+              <MuiLink
+                underline='hover'
+                variant='body1'
+                color='white'
+                fontSize='1rem'
+                width={200}
+                display='flex'
+              >
+                <ArrowForwardIcon sx={{ marginRight: '10px' }} />
+                Register participant
+              </MuiLink>
             </Link>
           </Grid>
         </Grid>
