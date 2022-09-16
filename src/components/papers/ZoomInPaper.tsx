@@ -1,4 +1,4 @@
-import { Grid, Paper, PaperPropsVariantOverrides, Zoom } from '@mui/material'
+import { Grid, Zoom } from '@mui/material'
 import React from 'react'
 
 /**
@@ -7,18 +7,16 @@ import React from 'react'
  */
 export const ZoomInPaper = ({
   fadeInMs,
-  paperVariant = 'transparent',
   children,
 }: {
   fadeInMs: number
-  paperVariant?: PaperPropsVariantOverrides
   children: React.ReactNode
 }) => {
   return (
     <Grid container justifyContent='center' alignContent='center'>
       <Grid item maxWidth='100%'>
         <Zoom in timeout={fadeInMs}>
-          <Paper variant={paperVariant}>{children}</Paper>
+          <div>{children}</div>
         </Zoom>
       </Grid>
     </Grid>
