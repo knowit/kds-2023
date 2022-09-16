@@ -1,15 +1,17 @@
 import { Grid, Typography } from '@mui/material'
 import { NextPage } from 'next'
+
 import { ZoomInPaper } from '../components/papers/ZoomInPaper'
 
 const AboutUsPage: NextPage = () => {
   return (
-    <ZoomInPaper fadeInMs={2000}>
+    <ZoomInPaper fadeInMs={2000} paperVariant='glass'>
       <Grid container xs={12} display='flex' justifyContent='flex-end'>
-        
-      <Grid container spacing={1} xs={12} maxWidth={400}>
-        <Typography variant='h2' textAlign='center' width='100%'>About KDS</Typography>
-        <Typography variant='body1'>
+        <Grid container spacing={1} xs={12} maxWidth={400}>
+          <Typography variant='h2' textAlign='center' width='100%'>
+            About KDS
+          </Typography>
+          <Typography variant='body1'>
             {`Knowit Developer Summit (KDS) is Knowit's internal software
             development conference. The conference is put on by, and for, our
             passionate developers at Knowit: we arrange it, we are its speakers,
@@ -47,7 +49,9 @@ const AboutUsPage: NextPage = () => {
             member, or a member of the committee. Travel to and from the
             conference is handled by the participant.`}
           </Typography>
-          <Typography variant='h2' textAlign='center' width='100%'>History</Typography>
+          <Typography variant='h2' textAlign='center' width='100%'>
+            History
+          </Typography>
           <Typography variant='body1'>
             {`The idea of holding a conference "by developers, for developers" arose sometime 
             around 2012 within Knowit Objectnet in Norway, thanks to Fredrik Vraalsen, Alf Kristian
@@ -61,9 +65,8 @@ const AboutUsPage: NextPage = () => {
             as possible would also be speakers - preferably all. With this arrangement, it also became clear that
             no external speakers would be invited.`}
           </Typography>
+        </Grid>
       </Grid>
-      </Grid>
-
     </ZoomInPaper>
   )
 }

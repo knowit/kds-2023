@@ -23,14 +23,14 @@ export const theme = createTheme({
       fontSize: '1.5rem',
       marginBottom: '20px',
       marginTop: '20px',
-      fontWeight: 600
+      fontWeight: 600,
     },
     h2: {
       fontFamily: 'ArialRegular',
       fontSize: '1.25rem',
       marginBottom: '20px',
       marginTop: '20px',
-      fontWeight: 600    
+      fontWeight: 600,
     },
     h3: {
       fontFamily: 'ArialRegular',
@@ -43,7 +43,7 @@ export const theme = createTheme({
     },
     body1: {
       fontWeight: 'normal',
-      fontSize: '1rem',
+      fontSize: '1.1rem',
       fontStyle: 'normal',
       padding: '10px 0',
     },

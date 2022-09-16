@@ -1,9 +1,25 @@
-import { useState } from "react"
-import { Grid, styled, Typography, useMediaQuery, useTheme, Box, Drawer, makeStyles } from '@mui/material'
+import { useState } from 'react'
+import {
+  Grid,
+  styled,
+  Typography,
+  useMediaQuery,
+  useTheme,
+  Box,
+  Drawer,
+} from '@mui/material'
 import Link from 'next/link'
 import { grey70, knowitPear, knowitSand, trueBlack } from '../../styles/colors'
 import { KDS_Logo_White } from '../../utils/svgExporter'
 import MenuIcon from '@mui/icons-material/Menu'
+
+const StyledIcon = styled(MenuIcon)({
+  fontSize: '40px',
+  cursor: 'pointer',
+  '&:hover': {
+    color: knowitPear,
+  },
+})
 
 const StyledAnchor = styled('a')({
   textDecoration: 'none',
@@ -32,7 +48,7 @@ const MobileMenuItem = styled('a')({
     color: grey70,
   },
   width: '250px',
-  padding: '5px 0px 5px 30px'
+  padding: '5px 0px 5px 30px',
 })
 
 interface NavItems {
@@ -41,8 +57,11 @@ interface NavItems {
 }
 const navItems: NavItems[] = [
   { href: '/aboutUsPage', label: 'About' },
-  { href: '/callForPresentationsPage', label: 'CFP' },
-  { href: 'https://kds-2021.knowit.no/', label: 'KDS 2021' },
+  { href: '/practicalitiesPage', label: 'Practicalities' },
+  { href: '/registrationPage', label: 'Registration' },
+  { href: '/callForPresentationPage', label: 'CFP' },
+  { href: '/codeOfConduitPage', label: 'Code of Conduit' },
+  // { href: 'https://kds-2021.knowit.no/', label: 'KDS 2021' }, Page is down, add when it is back
 ]
 
 export const Navigation = () => {
@@ -52,37 +71,52 @@ export const Navigation = () => {
   return (
     <Grid
       container
-      spacing={2}
-      padding={3}
+      sx={{ transition: '0.3s' }}
+      padding={{ xs: '2rem 3rem 3rem 3rem', md: '3rem 8rem 0rem 8rem' }}
       justifyContent={'space-between'}
     >
-      <Grid item key={'home'} 
-        xs={9}
-        justifyContent={'left'}>
+      <Grid item key={'home'} xs='auto' justifyContent={'left'}>
         <Link href={'/'} passHref>
-            <Box
-              sx={{ width: '100px' }}
-            >
+          <Box sx={{ width: '200px', cursor: 'pointer' }}>
             <KDS_Logo_White />
           </Box>
         </Link>
       </Grid>
-      {navItems.map((navItem, idx) => (
-        <Grid item key={idx} justifyContent={'end'} sx={{
-          display: isMobile ? 'none' : 'block',
-        }}>
-          <Link href={navItem.href} passHref>
-            <StyledAnchor>
-              <Typography variant='body2'>{navItem.label}</Typography>
-            </StyledAnchor>
-          </Link>
-        </Grid>
-      ))}
-      <Grid item justifyContent={'end'}
+      <Grid
+        item
+        xs
+        container
+        justifyContent={'end'}
+        sx={{
+          display: isMobile ? 'none' : 'inherit',
+        }}
+        columnGap={'2rem'}
+      >
+        {navItems.map((navItem, idx) => (
+          <Grid item key={idx} xs={'auto'}>
+            <Box sx={{ display: 'flex' }}>
+              <Link href={navItem.href} passHref>
+                <StyledAnchor>
+                  <Typography paddingTop={0} variant='body2'>
+                    {navItem.label}
+                  </Typography>
+                </StyledAnchor>
+              </Link>
+            </Box>
+          </Grid>
+        ))}
+      </Grid>
+      <Grid
+        item
+        justifyContent={'end'}
         sx={{
           display: isMobile ? 'block' : 'none',
-        }}>
-        <MenuIcon sx={{fontSize: '30px'}} onClick={() => setOpen(true)} />
+        }}
+      >
+        <StyledIcon
+          sx={{ fontSize: '40px', cursor: 'pointer' }}
+          onClick={() => setOpen(true)}
+        />
         <Drawer
           anchor={'right'}
           open={open}
@@ -90,8 +124,8 @@ export const Navigation = () => {
           PaperProps={{
             sx: {
               paddingTop: '50px',
-              backgroundColor: trueBlack
-            }
+              backgroundColor: trueBlack,
+            },
           }}
         >
           <Link href='/' passHref>
@@ -100,11 +134,11 @@ export const Navigation = () => {
             </MobileMenuItem>
           </Link>
           {navItems.map((navItem, idx) => (
-              <Link href={navItem.href} passHref>
-                <MobileMenuItem onClick={() => setOpen(false)}>
-                  <Typography variant='body2'>{navItem.label}</Typography>
-                </MobileMenuItem>
-              </Link>
+            <Link href={navItem.href} key={idx} passHref>
+              <MobileMenuItem onClick={() => setOpen(false)}>
+                <Typography variant='body2'>{navItem.label}</Typography>
+              </MobileMenuItem>
+            </Link>
           ))}
         </Drawer>
       </Grid>

@@ -1,15 +1,15 @@
-import { Box, Grid, Stack, styled } from '@mui/material'
-import { knowitDigitalBlack } from '../../styles/colors'
+import { Stack, styled } from '@mui/material'
+import { createContext, Dispatch, SetStateAction } from 'react'
 import { Background } from './Background'
 import { Navigation } from './Navigation'
+import { backgroundTypes, useDefinedBackground } from './useDefineBackground'
 
 const MainStack = styled(Stack)(({ theme }) => ({
   minHeight: '100vh',
   overflowX: 'hidden',
   position: 'relative',
   transition: '0.3s',
-  [theme.breakpoints.down('sm')]: {
-  },
+  [theme.breakpoints.down('sm')]: {},
 }))
 
 const CenteredFlex = styled('main')(({ theme }) => ({
@@ -26,22 +26,24 @@ const CenteredFlex = styled('main')(({ theme }) => ({
   },
 }))
 
-export const Layout = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <MainStack>
-      <Navigation />
-      <Grid container justifyContent={'center'}>
-        <Grid item>
-          <Box
-            sx={{ width: { sm: '500px', xs: '300px' }, transition: '0.3s' }}
-            margin={4}
-          >
-          </Box>
-        </Grid>
-      </Grid>
+export const BackgroundContext = createContext<
+  [
+    backgroundUsed: backgroundTypes,
+    setBackgroundUsed: Dispatch<SetStateAction<backgroundTypes>>
+  ]
+>(['map', () => 'map'])
 
-      <Background />
-      <CenteredFlex>{children}</CenteredFlex>
-    </MainStack>
+export const Layout = ({ children }: { children: React.ReactNode }) => {
+  const { backgroundUsed, setBackgroundUsed } = useDefinedBackground()
+
+  return (
+    <BackgroundContext.Provider value={[backgroundUsed, setBackgroundUsed]}>
+      <MainStack>
+        <Navigation />
+
+        <Background />
+        <CenteredFlex>{children}</CenteredFlex>
+      </MainStack>
+    </BackgroundContext.Provider>
   )
 }
