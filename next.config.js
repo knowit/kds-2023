@@ -1,20 +1,12 @@
-module.exports = {
-    exportPathMap: async function (defaultPathMap,  {dev, dir, outdir, distdir, buildId}) {
-        return {
-            '/': {page: '/'},
-            '/CallForPresentations': {page: '/callForPresentations'},
-            '/ParticipantRegistration': {page: '/participantRegistration'},
-            '/CodeOfConduct': {page: '/codeOfConduct'},
-            '/Location': {page: '/location'},
-            '/Practicalities': {page: '/practicalities'},
-            '/AboutKds': {page: '/aboutKds'},
-            '/Schedule': {page: '/schedule'},
-            '/TalksAndSpeakers': {page: '/talksAndSpeakers'},
-            '/Logo': {page: '/logo'},
-            '/Statistics': {page: '/statistics'},
-            '/ConventionMap' : {page: '/conventionMap'},
-            '/JustInTimeInfo' : {page: '/justInTimeInfo'},
-            '/ThankYou': {page: '/thankYou'}
-        }
-    }
-}
+const path = require('path')
+const withFonts = require('next-fonts')
+const withReactSvg = require('next-react-svg')
+
+module.exports = withReactSvg(
+  withFonts({
+    publicRuntimeConfig: {
+      appInsightsIntrumentalKey: process.env.APP_INSIGHTS_INSTRUMENTALKEY,
+    },
+    include: path.resolve(__dirname, 'public'),
+  })
+)
