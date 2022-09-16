@@ -12,9 +12,9 @@ const StyledAnchor = styled('a')({
   textDecorationColor: knowitDigitalLolipop,
 })
 
-const RegistrationPage: NextPage = () => {
+const Registration: NextPage = () => {
   return (
-    <ZoomInPaper fadeInMs={2000}>
+    <ZoomInPaper fadeInMs={400}>
       <GlassPaper>
         <Grid container spacing={2} alignItems={'center'} direction='column'>
           <Grid item xs={12}>
@@ -44,7 +44,7 @@ const RegistrationPage: NextPage = () => {
           </Grid>
           <Grid item>
             <Link
-              href='https://docs.google.com/forms/d/1dng5h2hiLN8Bor55JnGxwK1mCAF8t90bnGu8zRnEjAE'
+              href='https://docs.google.com/forms/d/e/1FAIpQLScFj8XfS7TZjRBCN2PUgw3zFbgy5QxwaX3r8-PHDMnPH_95qg/viewform?usp=sf_link'
               passHref
             >
               <RoundedButton>
@@ -59,4 +59,4 @@ const RegistrationPage: NextPage = () => {
   )
 }
 
-export default RegistrationPage
+export default Registration

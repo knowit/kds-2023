@@ -3,9 +3,9 @@ import { NextPage } from 'next'
 import { GlassPaper } from '../src/components/papers/StyledPapers'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 
-const PracticalitiesPage: NextPage = () => {
+const Practicalities: NextPage = () => {
   return (
-    <ZoomInPaper fadeInMs={2000}>
+    <ZoomInPaper fadeInMs={400}>
       <GlassPaper>
         <Grid container spacing={2} alignItems={'center'} direction='column'>
           <Grid item>
@@ -75,4 +75,4 @@ const PracticalitiesPage: NextPage = () => {
   )
 }
 
-export default PracticalitiesPage
+export default Practicalities

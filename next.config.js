@@ -16,11 +16,11 @@ const nextConfig = {
   ) {
     return {
       '/': { page: '/' },
-      '/CallForPresentations': { page: '/callForPresentationsPage' },
-      '/Registration': { page: '/registrationPage' },
-      '/CodeOfConduct': { page: '/codeOfConductPage' },
-      '/Practicalities': { page: '/practicalitiesPage' },
-      '/AboutKds': { page: '/aboutKdsPage' },
+      '/CallForPresentations': { page: '/CallForPresentations' },
+      '/Registration': { page: '/Registration' },
+      '/CodeOfConduct': { page: '/CodeOfConduct' },
+      '/Practicalities': { page: '/Practicalities' },
+      '/AboutKds': { page: '/AboutKds' },
     }
   },
 }

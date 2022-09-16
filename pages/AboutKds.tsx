@@ -3,9 +3,9 @@ import { NextPage } from 'next'
 import { GlassPaper } from '../src/components/papers/StyledPapers'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 
-const AboutKdsPage: NextPage = () => {
+const AboutKds: NextPage = () => {
   return (
-    <ZoomInPaper fadeInMs={2000}>
+    <ZoomInPaper fadeInMs={400}>
       <GlassPaper>
         <Grid container xs={12} display='flex' justifyContent='flex-end'>
           <Grid container spacing={1} xs={12} maxWidth={400}>
@@ -73,4 +73,4 @@ const AboutKdsPage: NextPage = () => {
   )
 }
 
-export default AboutKdsPage
+export default AboutKds

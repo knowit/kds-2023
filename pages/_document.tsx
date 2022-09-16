@@ -8,6 +8,11 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link
+            rel='icon'
+            type='image/x-icon'
+            href='/static/images/KDS_favicon.ico'
+          />
           <meta name='emotion-insertion-point' content='' />
           {(this.props as any).emotionStyleTags}
         </Head>

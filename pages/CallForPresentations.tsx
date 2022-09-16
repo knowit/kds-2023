@@ -13,9 +13,9 @@ const StyledAnchor = styled('a')({
   textDecorationColor: knowitDigitalLolipop,
 })
 
-const CallForPresentationsPage: NextPage = () => {
+const CallForPresentations: NextPage = () => {
   return (
-    <ZoomInPaper fadeInMs={2000}>
+    <ZoomInPaper fadeInMs={400}>
       <GlassPaper>
         <Grid container justifyContent={'center'}>
           <Grid item>
@@ -99,7 +99,7 @@ const CallForPresentationsPage: NextPage = () => {
           </Grid>
           <Grid item>
             <Link
-              href='https://docs.google.com/forms/d/1ocxcrA5D20Iss7Z4Ynv4d-ryCAeNBJxk-mCb0JOC-Kk'
+              href='https://docs.google.com/forms/d/e/1FAIpQLSd1L8AHc1fsbYmXLePW71v4g8SGf-61whxHMwF7oox6br5xQw/viewform?usp=sf_link'
               passHref
             >
               <RoundedButton>
@@ -114,4 +114,4 @@ const CallForPresentationsPage: NextPage = () => {
   )
 }
 
-export default CallForPresentationsPage
+export default CallForPresentations

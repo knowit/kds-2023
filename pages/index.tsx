@@ -18,7 +18,7 @@ const HighlightedText = styled('div')({
 
 const Home: NextPage = () => {
   return (
-    <ZoomInPaper fadeInMs={3000}>
+    <ZoomInPaper fadeInMs={2500}>
       <TransparentPaper>
         <Grid container spacing={2}>
           <Grid
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
             alignItems='center'
           >
             <Link
-              href='https://docs.google.com/forms/d/1ocxcrA5D20Iss7Z4Ynv4d-ryCAeNBJxk-mCb0JOC-Kk'
+              href='https://docs.google.com/forms/d/e/1FAIpQLSd1L8AHc1fsbYmXLePW71v4g8SGf-61whxHMwF7oox6br5xQw/viewform?usp=sf_link'
               passHref
             >
               <MuiLink
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
               </MuiLink>
             </Link>
             <Link
-              href='https://docs.google.com/forms/d/1dng5h2hiLN8Bor55JnGxwK1mCAF8t90bnGu8zRnEjAE'
+              href='https://docs.google.com/forms/d/e/1FAIpQLScFj8XfS7TZjRBCN2PUgw3zFbgy5QxwaX3r8-PHDMnPH_95qg/viewform?usp=sf_link'
               passHref
             >
               <MuiLink
