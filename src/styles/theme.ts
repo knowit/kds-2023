@@ -1,8 +1,6 @@
-import { createTheme } from '@mui/material'
+import { createTheme } from '@mui/material/styles'
 import { grey50, knowitDigitalBlack, knowitSand, trueBlack } from './colors'
 import { baseline } from './components/base'
-import { buttons } from './components/buttons'
-import { papers } from './components/papers'
 
 export const theme = createTheme({
   palette: {
@@ -55,8 +53,6 @@ export const theme = createTheme({
     },
   },
   components: {
-    MuiPaper: papers,
-    MuiButton: buttons,
     MuiCssBaseline: baseline,
   },
 })
