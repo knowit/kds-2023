@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
           <link
             rel='icon'
             type='image/x-icon'
-            href='/static/images/KDS_favicon.ico'
+            href='/static/images/KDS_Favicon.ico'
           />
           <meta name='emotion-insertion-point' content='' />
           {(this.props as any).emotionStyleTags}
