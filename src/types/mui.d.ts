@@ -1,6 +1,7 @@
 declare module '@mui/material/Paper' {
   interface PaperPropsVariantOverrides {
     transparent: true
+    glass: true
   }
 }
 

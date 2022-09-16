@@ -16,7 +16,7 @@ export const buttons: MuiButton = {
     {
       props: { variant: 'rounded' },
       style: {
-        backgroundColor: trueBlack,
+        backgroundColor: 'transparent',
         border: '1px solid',
         borderRadius: '1.875rem',
         color: knowitSand,

@@ -14,6 +14,9 @@ interface MuiBase {
 
 export const baseline: MuiBase = {
   styleOverrides: `
+  body{
+    padding: 0px;
+  };
   canvas {height: 100%!important}
   @font-face {
     font-family: 'ArialRegular';

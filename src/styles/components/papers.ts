@@ -16,7 +16,16 @@ export const papers: MuiPaper = {
       props: { variant: 'transparent' },
       style: {
         backgroundColor: 'transparent',
-        padding: '2rem',
+        padding: '1rem',
+        maxWidth: '750px',
+      },
+    },
+    {
+      props: { variant: 'glass' },
+      style: {
+        backgroundColor: 'rgba(255,255,255,0.01)',
+        backdropFilter: 'blur(5px)',
+        padding: '1rem',
         maxWidth: '750px',
       },
     },
