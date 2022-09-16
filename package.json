@@ -9,7 +9,7 @@
     "build": "next build && next export",
     "start": "next start",
     "export": "next export",
-    "deploy": "next build && next export -o \"out\" && echo \"\" >> out/.nojekyll && cp CNAME out/CNAME",
+    "deploy": "next build && next export",
     "deploy-windows": "next build && next export -o \"out\" && echo \"\" >> out/.nojekyll && copy \"CNAME\" \"out/CNAME\""
   },
   "repository": {
