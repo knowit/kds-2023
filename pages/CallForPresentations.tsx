@@ -26,13 +26,13 @@ const CallForPresentations: NextPage = () => {
               This page is for submitting presentations for the conference. If
               you submit a presentation, you do not need to go through regular
               registration. If you are only registering as a participant, go to{' '}
-              <Link href='/registrationPage' passHref>
+              <Link href='/Registration' passHref>
                 <StyledAnchor>here</StyledAnchor>
               </Link>
               . Presentation registration is at the bottom of the page. Please
               make yourself familiar with the following information, as well as
               the{' '}
-              <Link href='/practicalitiesPage' passHref>
+              <Link href='/Practicalities' passHref>
                 <StyledAnchor>general information</StyledAnchor>
               </Link>{' '}
               for the conference before registering.

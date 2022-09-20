@@ -24,12 +24,12 @@ const Registration: NextPage = () => {
             <Typography>
               Before you register, please make yourself familiar with the
               available information in{' '}
-              <Link href='/practicalitiesPage' passHref>
+              <Link href='/Practicalities' passHref>
                 <StyledAnchor>general information</StyledAnchor>
               </Link>
               . This registration is for general participation, if you are
               submitting a talk, please go through{' '}
-              <Link href='/callForPresentationsPage' passHref>
+              <Link href='/CallForPresentations' passHref>
                 <StyledAnchor>call for presentations</StyledAnchor>
               </Link>{' '}
               instead.
