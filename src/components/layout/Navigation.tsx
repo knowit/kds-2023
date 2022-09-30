@@ -61,7 +61,7 @@ const navItems: NavItems[] = [
   { href: '/Registration', label: 'Registration' },
   { href: '/CallForPresentations', label: 'CFP' },
   { href: '/CodeOfConduct', label: 'Code of Conduct' },
-  // { href: 'https://kds-2021.knowit.no/', label: 'KDS 2021' }, Page is down, add when it is back
+  { href: 'http://kds-2021.knowit.no/', label: 'KDS 2021' },
 ]
 
 export const Navigation = () => {
