@@ -62,7 +62,7 @@ const CallForPresentations: NextPage = () => {
           </Grid>
           <Grid item>
             <Typography variant='body1'>
-              <strong>The deadline is 13th October</strong>. You will receive a
+              <strong>The deadline is 16th October</strong>. You will receive a
               confirmation before November if your talk has been accepted. The
               schedule will be made public around the beginning of November.
               There are three tiers of presentations you may submit. Please pick
