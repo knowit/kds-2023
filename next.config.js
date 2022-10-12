@@ -21,6 +21,8 @@ const nextConfig = {
       '/CodeOfConduct': { page: '/CodeOfConduct' },
       '/Practicalities': { page: '/Practicalities' },
       '/AboutKds': { page: '/AboutKds' },
+      '/Location': { page: '/Location' },
+      '/Test': { page: '/Test' },
     }
   },
 }
