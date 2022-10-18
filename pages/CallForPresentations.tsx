@@ -22,6 +22,14 @@ const CallForPresentations: NextPage = () => {
             <Typography variant='h3'>Call For Presentations</Typography>
           </Grid>
           <Grid item>
+            <strong>The deadline was on the 16th October</strong>. Submissions
+            of presentations are now closed. Thank you to all who have
+            submitted, we are working on processing them and will give an
+            acceptance reply and publish program by months end. If you wish to
+            submit a late presentation, contact kds@knowit.no and we will check
+            if we have any spots available.
+          </Grid>
+          <Grid item>
             <Typography variant='body1'>
               This page is for submitting presentations for the conference. If
               you submit a presentation, you do not need to go through regular
@@ -62,12 +70,9 @@ const CallForPresentations: NextPage = () => {
           </Grid>
           <Grid item>
             <Typography variant='body1'>
-              <strong>The deadline is 16th October</strong>. You will receive a
-              confirmation before November if your talk has been accepted. The
-              schedule will be made public around the beginning of November.
-              There are three tiers of presentations you may submit. Please pick
-              the one appropriate for your topic, it is always better to cut
-              down than expand.
+              There are three tiers of presentations. Please pick the one
+              appropriate for your topic, it is always better to cut down than
+              expand.
             </Typography>
           </Grid>
           <Grid item>
@@ -97,7 +102,7 @@ const CallForPresentations: NextPage = () => {
               or just a topic that you plain want to go really into depth in.
             </Typography>
           </Grid>
-          <Grid item>
+          {/*<Grid item>
             <Link
               href='https://docs.google.com/forms/d/e/1FAIpQLSd1L8AHc1fsbYmXLePW71v4g8SGf-61whxHMwF7oox6br5xQw/viewform?usp=sf_link'
               passHref
@@ -107,7 +112,7 @@ const CallForPresentations: NextPage = () => {
                 <Typography>Register Presentation</Typography>
               </RoundedButton>
             </Link>
-          </Grid>
+  </Grid> */}
         </Grid>
       </GlassPaper>
     </ZoomInPaper>
