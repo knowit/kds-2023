@@ -1,22 +1,11 @@
-import { Grid, Typography, styled } from '@mui/material'
+import { Grid, Typography, Paper } from '@mui/material'
 import { NextPage } from 'next'
-import Link from 'next/link'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
-import { knowitDigitalLolipop, knowitSand } from '../src/styles/colors'
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
-import { GlassPaper } from '../src/components/papers/StyledPapers'
-import { RoundedButton } from '../src/components/papers/StyledButtons'
-
-const StyledAnchor = styled('a')({
-  color: knowitSand,
-  textUnderlineOffset: '3px',
-  textDecorationColor: knowitDigitalLolipop,
-})
 
 const CallForPresentations: NextPage = () => {
   return (
     <ZoomInPaper fadeInMs={400}>
-      <GlassPaper>
+      <Paper variant='glass'>
         <Grid container justifyContent={'center'}>
           <Grid item>
             <Typography variant='h3'>Call For Presentations</Typography>
@@ -28,23 +17,6 @@ const CallForPresentations: NextPage = () => {
             acceptance reply and publish program by months end. If you wish to
             submit a late presentation, contact kds@knowit.no and we will check
             if we have any spots available.
-          </Grid>
-          <Grid item>
-            <Typography variant='body1'>
-              This page is for submitting presentations for the conference. If
-              you submit a presentation, you do not need to go through regular
-              registration. If you are only registering as a participant, go to{' '}
-              <Link href='/Registration' passHref>
-                <StyledAnchor>here</StyledAnchor>
-              </Link>
-              . Presentation registration is at the bottom of the page. Please
-              make yourself familiar with the following information, as well as
-              the{' '}
-              <Link href='/Practicalities' passHref>
-                <StyledAnchor>general information</StyledAnchor>
-              </Link>{' '}
-              for the conference before registering.
-            </Typography>
           </Grid>
           <Grid item>
             <Typography variant='body1'>
@@ -114,7 +86,7 @@ const CallForPresentations: NextPage = () => {
             </Link>
   </Grid> */}
         </Grid>
-      </GlassPaper>
+      </Paper>
     </ZoomInPaper>
   )
 }
