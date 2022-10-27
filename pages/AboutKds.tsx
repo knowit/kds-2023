@@ -1,12 +1,18 @@
-import { Grid, Typography } from '@mui/material'
+import { Grid, Paper, Typography } from '@mui/material'
 import { NextPage } from 'next'
-import { GlassPaper } from '../src/components/papers/StyledPapers'
+import { useContext, useEffect } from 'react'
+import { BackgroundContext } from '../src/components/layout'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 
 const AboutKds: NextPage = () => {
+  const [_, setBackgroundUsed] = useContext(BackgroundContext)
+
+  useEffect(() => {
+    setBackgroundUsed('map')
+  }, [])
   return (
     <ZoomInPaper fadeInMs={400}>
-      <GlassPaper>
+      <Paper variant='glass'>
         <Grid container xs={12} display='flex' justifyContent='flex-end'>
           <Grid container spacing={1} xs={12} maxWidth={400}>
             <Typography variant='h2' textAlign='center' width='100%'>
@@ -68,7 +74,7 @@ const AboutKds: NextPage = () => {
             </Typography>
           </Grid>
         </Grid>
-      </GlassPaper>
+      </Paper>
     </ZoomInPaper>
   )
 }

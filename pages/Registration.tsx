@@ -1,11 +1,12 @@
-import { Grid, styled, Typography } from '@mui/material'
+import { Button, Grid, Paper, styled, Typography } from '@mui/material'
 import { NextPage } from 'next'
 import Link from 'next/link'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import { knowitDigitalLolipop, knowitSand } from '../src/styles/colors'
-import { GlassPaper } from '../src/components/papers/StyledPapers'
-import { RoundedButton } from '../src/components/papers/StyledButtons'
+import { useContext, useEffect } from 'react'
+import { BackgroundContext } from '../src/components/layout'
+
 const StyledAnchor = styled('a')({
   color: knowitSand,
   textUnderlineOffset: '3px',
@@ -13,9 +14,14 @@ const StyledAnchor = styled('a')({
 })
 
 const Registration: NextPage = () => {
+  const [_, setBackgroundUsed] = useContext(BackgroundContext)
+
+  useEffect(() => {
+    setBackgroundUsed('map')
+  }, [])
   return (
     <ZoomInPaper fadeInMs={400}>
-      <GlassPaper>
+      <Paper variant='glass'>
         <Grid container spacing={2} alignItems={'center'} direction='column'>
           <Grid item xs={12}>
             <Typography variant='h4'>Registration</Typography>
@@ -27,12 +33,7 @@ const Registration: NextPage = () => {
               <Link href='/Practicalities' passHref>
                 <StyledAnchor>general information</StyledAnchor>
               </Link>
-              . This registration is for general participation, if you are
-              submitting a talk, please go through{' '}
-              <Link href='/CallForPresentations' passHref>
-                <StyledAnchor>call for presentations</StyledAnchor>
-              </Link>{' '}
-              instead.
+              .
             </Typography>
           </Grid>
           <Grid item>
@@ -47,14 +48,14 @@ const Registration: NextPage = () => {
               href='https://docs.google.com/forms/d/e/1FAIpQLScFj8XfS7TZjRBCN2PUgw3zFbgy5QxwaX3r8-PHDMnPH_95qg/viewform?usp=sf_link'
               passHref
             >
-              <RoundedButton>
+              <Button variant='roundButton'>
                 <ArrowForwardIcon sx={{ marginRight: '10px' }} />
                 <Typography>Register Participation</Typography>
-              </RoundedButton>
+              </Button>
             </Link>
           </Grid>
         </Grid>
-      </GlassPaper>
+      </Paper>
     </ZoomInPaper>
   )
 }
