@@ -52,6 +52,7 @@ const Talks: NextPage = () => {
     const fetchedTalks = currentConference.Timeslots.filter(
       (Timeslot) => Timeslot.Type == 'talk'
     )
+    console.log('hello', fetchedTalks)
     setTalks(fetchedTalks.length == 0 ? [] : fetchedTalks)
   }
 
@@ -106,7 +107,7 @@ const Talks: NextPage = () => {
             </Grid>
             <Grid item>
               <Typography>
-                Welcome to Knowit Developer summit! Let yourself be inspired to
+                Welcome to Knowit Developer Summit! Let yourself be inspired to
                 attend this year by browsing the talks submitted to our
                 conference. Timeslots and programs will be published at a later
                 date.

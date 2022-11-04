@@ -54,10 +54,7 @@ const Home: NextPage = () => {
             flexDirection='column'
             alignItems='center'
           >
-            <Link
-              href='https://docs.google.com/forms/d/e/1FAIpQLSd1L8AHc1fsbYmXLePW71v4g8SGf-61whxHMwF7oox6br5xQw/viewform?usp=sf_link'
-              passHref
-            >
+            <Link href='/Talks' passHref>
               <MuiLink
                 underline='hover'
                 variant='body1'
@@ -68,7 +65,7 @@ const Home: NextPage = () => {
                 display='flex'
               >
                 <ArrowForwardIcon sx={{ marginRight: '10px' }} />
-                Register speaker
+                View Talks
               </MuiLink>
             </Link>
             <Link
