@@ -77,7 +77,7 @@ export type DirectusSpeaker = {
 export type DirectusTimeslot = {
   Event: DirectusEvent
   Talk: DirectusTalk
-  Room: DirectusRoomTimeslot[]
+  Rooms: DirectusRoomTimeslot[]
   StartTime: string
   Type: 'talk' | 'event'
 }
@@ -91,7 +91,7 @@ export type DirectusRoom = {
   Name: string
   RoomId: string
   seats: number
-  Timeslots: DirectusTimeslot[]
+  Timeslots: DirectusRoomTimeslot[]
 }
 
 /**

@@ -25,6 +25,9 @@
   "homepage": "https://github.com/knowit/program.kds.knowit.no",
   "dependencies": {
     "@date-io/luxon": "^2.14.0",
+    "@devexpress/dx-react-core": "^3.0.6",
+    "@devexpress/dx-react-scheduler": "^3.0.6",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.6",
     "@directus/sdk": "^10.1.4",
     "@emotion/cache": "^11.10.3",
     "@emotion/react": "^11.5.0",
