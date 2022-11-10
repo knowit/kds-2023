@@ -134,58 +134,62 @@ const Program: NextPage = () => {
         },
       },
     })
+    //Typescript issue compatabillity with directus - workaround
+    const conferenceList = (res as any).data as DirectusConference[]
 
-    const currentConference: DirectusConference = res.data?.find(
-      (conference) => conference
-    )
+    const currentConference: DirectusConference | undefined =
+      conferenceList.find((conference) => conference)
+    if (currentConference) {
+      const roomKeys = currentConference.Rooms.filter(
+        (room) => room.Name != 'TBA'
+      )
+        .sort((a, b) => a.Name.localeCompare(b.Name))
+        .map((room) => room.RoomId)
 
-    const roomKeys = currentConference.Rooms.filter(
-      (room) => room.Name != 'TBA'
-    )
-      .sort((a, b) => a.Name.localeCompare(b.Name))
-      .map((room) => room.RoomId)
+      const resourceInstances: Resource[] = [
+        {
+          fieldName: 'roomId',
+          title: 'Tracks',
 
-    const resourceInstances: Resource[] = [
-      {
-        fieldName: 'roomId',
-        title: 'Tracks',
-
-        instances: currentConference.Rooms.filter((room) => room.Name != 'TBA')
-          .sort((a, b) => a.Name.localeCompare(b.Name))
-          .map((room, idx) => {
-            return { text: room.Name, id: idx, color: 'grey' }
-          }),
-        allowMultiple: true,
-      },
-    ]
-    setResource(resourceInstances)
-    const scheduleData: ScheduleItem[] = currentConference.Timeslots.map(
-      (timeslot) => {
-        if (timeslot.Event) {
+          instances: currentConference.Rooms.filter(
+            (room) => room.Name != 'TBA'
+          )
+            .sort((a, b) => a.Name.localeCompare(b.Name))
+            .map((room, idx) => {
+              return { text: room.Name, id: idx, color: 'grey' }
+            }),
+          allowMultiple: true,
+        },
+      ]
+      setResource(resourceInstances)
+      const scheduleData: ScheduleItem[] = currentConference.Timeslots.map(
+        (timeslot) => {
+          if (timeslot.Event) {
+            return {
+              title: timeslot.Event.Name,
+              startDate: timeslot.StartTime,
+              endDate: DateTime.fromISO(timeslot.StartTime)
+                .plus({ minutes: timeslot.Event.Duration })
+                .toISO(),
+              roomId: [0],
+              event: timeslot.Event,
+            }
+          }
           return {
-            title: timeslot.Event.Name,
+            title: timeslot.Talk.Title,
             startDate: timeslot.StartTime,
             endDate: DateTime.fromISO(timeslot.StartTime)
-              .plus({ minutes: timeslot.Event.Duration })
+              .plus({ minutes: timeslot.Talk.Duration })
               .toISO(),
-            roomId: [0],
-            event: timeslot.Event,
+            roomId: timeslot.Rooms.map((room) =>
+              roomKeys.indexOf(room.Room_RoomId.RoomId)
+            ),
+            talk: timeslot.Talk,
           }
         }
-        return {
-          title: timeslot.Talk.Title,
-          startDate: timeslot.StartTime,
-          endDate: DateTime.fromISO(timeslot.StartTime)
-            .plus({ minutes: timeslot.Talk.Duration })
-            .toISO(),
-          roomId: timeslot.Rooms.map((room) =>
-            roomKeys.indexOf(room.Room_RoomId.RoomId)
-          ),
-          talk: timeslot.Talk,
-        }
-      }
-    )
-    setSchedule(scheduleData)
+      )
+      setSchedule(scheduleData)
+    }
   }
   useEffect(() => {
     getTracks()
