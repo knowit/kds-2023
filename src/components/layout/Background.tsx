@@ -1,21 +1,41 @@
-import { Box } from '@mui/material'
+import { Box, SxProps } from '@mui/material'
 import Image from 'next/image'
 import { useContext } from 'react'
 import { BackgroundContext } from './Layout'
-import { backgroundTypes } from './useDefineBackground'
 import downwardImage from '../../../public/static/images/DotPattern3.jpg'
+import { BackgroundTypes } from '../../types/backgroundTypes'
+
 export const Background = () => {
   const [backgroundUsed] = useContext(BackgroundContext)
+
+  const getPositionalProps = (background: BackgroundTypes) => {
+    switch (background) {
+      case 'upwardLeft':
+      case 'soft1':
+      case 'soft2':
+      case 'downwardLow':
+        return { position: 'absolute', bottom: 0, right: 0 }
+      case 'upward':
+        return { position: 'absolute', bottom: 0 }
+
+      default:
+        return {}
+    }
+  }
+
   return (
     <Box
       sx={{
+        position: 'fixed',
+        top: 0,
+        zIndex: '-10',
         width: '100vw',
         height: '100vh',
-        position: 'absolute',
-        zIndex: '-10',
       }}
     >
-      <BackgroundSelector background={backgroundUsed} />
+      <Box sx={getPositionalProps(backgroundUsed) as SxProps}>
+        <BackgroundSelector background={backgroundUsed} />
+      </Box>
     </Box>
   )
 }
@@ -23,7 +43,7 @@ export const Background = () => {
 const BackgroundSelector = ({
   background,
 }: {
-  background: backgroundTypes
+  background: BackgroundTypes
 }) => {
   switch (background) {
     case 'map':
@@ -40,9 +60,12 @@ const BackgroundSelector = ({
       return (
         <Image
           src={'/static/images/DotPattern1.jpg'}
-          layout='fill'
+          layout='intrinsic'
+          width={1920}
+          height={1080}
+          quality='100'
           objectFit='cover'
-          objectPosition='top'
+          className='object-center object-cover pointer-events-none'
           alt='Black backround with abstract colored dots'
         />
       )
@@ -50,9 +73,11 @@ const BackgroundSelector = ({
       return (
         <Image
           src={'/static/images/DotPattern2.jpg'}
-          layout='fill'
+          layout='intrinsic'
+          width={1920}
+          height={1080}
+          quality='100'
           objectFit='cover'
-          objectPosition='top'
           alt='Black backround with abstract colored dots'
         />
       )
@@ -61,9 +86,11 @@ const BackgroundSelector = ({
         <Image
           src={downwardImage}
           layout='intrinsic'
-          objectPosition='top'
+          width={1920}
+          height={1080}
           quality='100'
-          sizes={'100vw'}
+          objectFit='cover'
+          className='object-center object-cover pointer-events-none'
           alt='Black backround with abstract colored dots'
         />
       )
@@ -71,9 +98,12 @@ const BackgroundSelector = ({
       return (
         <Image
           src={'/static/images/DotPattern4.jpg'}
-          layout='fill'
+          layout='intrinsic'
+          width={1920}
+          height={1080}
+          quality='100'
           objectFit='cover'
-          objectPosition='top'
+          className='object-center object-cover pointer-events-none'
           alt='Black backround with abstract colored dots'
         />
       )
@@ -81,7 +111,9 @@ const BackgroundSelector = ({
       return (
         <Image
           src={'/static/images/DotPattern5.jpg'}
-          layout='fill'
+          layout='intrinsic'
+          width={1920}
+          height={1080}
           objectFit='cover'
           objectPosition='top'
           alt='Black backround with abstract colored dots'
@@ -91,9 +123,12 @@ const BackgroundSelector = ({
       return (
         <Image
           src={'/static/images/DotPattern6.jpg'}
-          layout='fill'
+          layout='intrinsic'
+          width={1920}
+          height={1080}
+          quality='100'
           objectFit='cover'
-          objectPosition='top'
+          className='object-center object-cover pointer-events-none'
           alt='Black backround with abstract colored dots'
         />
       )

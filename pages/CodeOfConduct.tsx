@@ -1,12 +1,18 @@
-import { Grid, Typography } from '@mui/material'
+import { Grid, Paper, Typography } from '@mui/material'
 import { NextPage } from 'next'
-import { GlassPaper } from '../src/components/papers/StyledPapers'
+import { useContext, useEffect } from 'react'
+import { BackgroundContext } from '../src/components/layout'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 
 const CodeOfConduct: NextPage = () => {
+  const [_, setBackgroundUsed] = useContext(BackgroundContext)
+
+  useEffect(() => {
+    setBackgroundUsed('map')
+  }, [])
   return (
     <ZoomInPaper fadeInMs={400}>
-      <GlassPaper>
+      <Paper variant='glass'>
         <Grid container justifyContent={'center'}>
           <Grid item>
             <Typography variant='h3'>Conference Code of Conduct</Typography>
@@ -119,7 +125,7 @@ const CodeOfConduct: NextPage = () => {
             </Typography>
           </Grid>
         </Grid>
-      </GlassPaper>
+      </Paper>
     </ZoomInPaper>
   )
 }

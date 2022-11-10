@@ -1,11 +1,11 @@
-import { Grid, styled, Link as MuiLink } from '@mui/material'
+import { Grid, styled, Link as MuiLink, Paper } from '@mui/material'
 import { NextPage } from 'next'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
-
-import { TransparentPaper } from '../src/components/papers/StyledPapers'
 import { KdsLogo } from '../src/components/svgs/KdsLogo'
 import Link from 'next/link'
+import { useContext, useEffect } from 'react'
+import { BackgroundContext } from '../src/components/layout'
 
 const HighlightedText = styled('div')({
   color: 'white',
@@ -17,9 +17,15 @@ const HighlightedText = styled('div')({
 })
 
 const Home: NextPage = () => {
+  const [_, setBackgroundUsed] = useContext(BackgroundContext)
+
+  useEffect(() => {
+    setBackgroundUsed('map')
+  }, [])
+
   return (
     <ZoomInPaper fadeInMs={2500}>
-      <TransparentPaper>
+      <Paper variant='transparent'>
         <Grid container spacing={2}>
           <Grid
             item
@@ -48,10 +54,7 @@ const Home: NextPage = () => {
             flexDirection='column'
             alignItems='center'
           >
-            <Link
-              href='https://docs.google.com/forms/d/e/1FAIpQLSd1L8AHc1fsbYmXLePW71v4g8SGf-61whxHMwF7oox6br5xQw/viewform?usp=sf_link'
-              passHref
-            >
+            <Link href='/Talks' passHref>
               <MuiLink
                 underline='hover'
                 variant='body1'
@@ -62,7 +65,7 @@ const Home: NextPage = () => {
                 display='flex'
               >
                 <ArrowForwardIcon sx={{ marginRight: '10px' }} />
-                Register speaker
+                View Talks
               </MuiLink>
             </Link>
             <Link
@@ -83,7 +86,7 @@ const Home: NextPage = () => {
             </Link>
           </Grid>
         </Grid>
-      </TransparentPaper>
+      </Paper>
     </ZoomInPaper>
   )
 }
