@@ -1,10 +1,11 @@
 import { NextPage } from 'next'
-import { Grid, Typography, styled, Box } from '@mui/material'
+import { Grid, Typography, styled, Paper } from '@mui/material'
 import { knowitDigitalLolipop, knowitPear } from '../src/styles/colors'
 import Link from 'next/link'
-import { GlassPaper } from '../src/components/papers/StyledPapers'
 import Map, { Marker } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
+import { useContext, useEffect } from 'react'
+import { BackgroundContext } from '../src/components/layout'
 const LinkTypography = styled(Typography)({
   textAlign: 'center',
   textDecoration: 'underline',
@@ -20,25 +21,33 @@ const UnsettedATag = styled('a')({
 })
 
 const Location: NextPage = () => {
+  const [_, setBackgroundUsed] = useContext(BackgroundContext)
+
+  useEffect(() => {
+    setBackgroundUsed('soft1')
+  }, [])
+
   return (
     <Grid container justifyContent={'center'}>
       <Grid item container xs={12} columnSpacing={2}>
-        <Grid item xs={4}>
-          <Link href={'https://www.thesquarecopenhagen.com/'} passHref>
-            <UnsettedATag target='_blank'>
-              <LinkTypography variant='h5'>Hotel: The Square</LinkTypography>
-            </UnsettedATag>
-          </Link>
-          <Grid item>
-            <Typography variant='body1'>
-              This year we are staying at The Square hotel in the middle of
-              Copenhagen, close to the Tivoli and City Hall. It is only a
-              10-minute walk from the Central Station to the hotel, and only 2
-              minutes to the conference venue.
-            </Typography>
-          </Grid>
+        <Grid item xs={12} md={4}>
+          <Paper variant='glass'>
+            <Link href={'https://www.thesquarecopenhagen.com/'} passHref>
+              <UnsettedATag target='_blank'>
+                <LinkTypography variant='h5'>Hotel: The Square</LinkTypography>
+              </UnsettedATag>
+            </Link>
+            <Grid item>
+              <Typography variant='body1'>
+                This year we are staying at The Square hotel in the middle of
+                Copenhagen, close to the Tivoli and City Hall. It is only a
+                10-minute walk from the Central Station to the hotel, and only 2
+                minutes to the conference venue.
+              </Typography>
+            </Grid>
+          </Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Grid item>
             <Link
               href={'https://politiken.dk/indland/art7424866/Pressen'}
@@ -59,7 +68,7 @@ const Location: NextPage = () => {
             </Typography>
           </Grid>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Grid item>
             <Link
               href={
@@ -92,9 +101,9 @@ const Location: NextPage = () => {
         <Map
           mapboxAccessToken='pk.eyJ1Ijoia2Rzam9obiIsImEiOiJjbDkzdnhiZmowMzJjM3VqbmlscjN0OGQ3In0.TkEbwmgl6wiEPELfW9kT7Q'
           initialViewState={{
-            latitude: 55.67730754383056,
+            latitude: 55.68330754383056,
             longitude: 12.567135883719853,
-            zoom: 14,
+            zoom: 13,
           }}
           mapStyle='mapbox://styles/kdsjohn/cl92trwcs001k14oz5ogwhst4'
         >

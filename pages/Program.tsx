@@ -3,7 +3,6 @@ import {
   Button,
   CircularProgress,
   Grid,
-  Paper,
   styled,
   Typography,
   useMediaQuery,
@@ -27,7 +26,6 @@ import {
   Resources,
   AppointmentTooltip,
   CurrentTimeIndicator,
-  AppointmentTooltipProps,
 } from '@devexpress/dx-react-scheduler-material-ui'
 import {
   GroupingState,

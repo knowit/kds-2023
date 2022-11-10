@@ -58,9 +58,9 @@ interface NavItems {
 const navItems: NavItems[] = [
   { href: '/AboutKds', label: 'About' },
   { href: '/Practicalities', label: 'Practicalities' },
+  { href: '/Location', label: 'Location' },
   { href: '/Registration', label: 'Registration' },
   { href: '/Talks', label: 'Talks' },
-  { href: '/CodeOfConduct', label: 'Code of Conduct' },
   { href: 'http://kds-2021.knowit.no/', label: 'KDS 2021' },
 ]
 
