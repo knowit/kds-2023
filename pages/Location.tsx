@@ -3,7 +3,7 @@ import { Grid, Typography, styled, Box } from '@mui/material'
 import { knowitDigitalLolipop, knowitPear } from '../src/styles/colors'
 import Link from 'next/link'
 import { GlassPaper } from '../src/components/papers/StyledPapers'
-import Map, { GeolocateControl, Marker } from 'react-map-gl'
+import Map, { Marker } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 const LinkTypography = styled(Typography)({
   textAlign: 'center',
@@ -19,63 +19,66 @@ const UnsettedATag = styled('a')({
   all: 'unset',
 })
 
-/**
- *
- * @returns
- */
 const Location: NextPage = () => {
   return (
     <Grid container justifyContent={'center'}>
-      <Grid item xs={12}>
-        <GlassPaper>
-          <Grid item container>
-            <Grid item xs={6}>
-              <Link href={'https://www.thesquarecopenhagen.com/'} passHref>
-                <UnsettedATag target='_blank'>
-                  <LinkTypography variant='h5'>
-                    Hotel: The Square
-                  </LinkTypography>
-                </UnsettedATag>
-              </Link>
-              <Grid item>
-                <Typography variant='body1'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Typography>
-              </Grid>
-            </Grid>
-            <Grid item xs={6}>
-              <Grid item>
-                <Link
-                  href={'https://politiken.dk/indland/art7424866/Pressen'}
-                  passHref
-                >
-                  <UnsettedATag target='_blank'>
-                    <LinkTypography variant='h5'>Venue: Pressen</LinkTypography>
-                  </UnsettedATag>
-                </Link>
-              </Grid>
-              <Grid item>
-                <Typography variant='body1'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </Typography>
-              </Grid>
-            </Grid>
+      <Grid item container xs={12} columnSpacing={2}>
+        <Grid item xs={4}>
+          <Link href={'https://www.thesquarecopenhagen.com/'} passHref>
+            <UnsettedATag target='_blank'>
+              <LinkTypography variant='h5'>Hotel: The Square</LinkTypography>
+            </UnsettedATag>
+          </Link>
+          <Grid item>
+            <Typography variant='body1'>
+              This year we are staying at The Square hotel in the middle of
+              Copenhagen, close to the Tivoli and City Hall. It is only a
+              10-minute walk from the Central Station to the hotel, and only 2
+              minutes to the conference venue.
+            </Typography>
           </Grid>
-        </GlassPaper>
+        </Grid>
+        <Grid item xs={4}>
+          <Grid item>
+            <Link
+              href={'https://politiken.dk/indland/art7424866/Pressen'}
+              passHref
+            >
+              <UnsettedATag target='_blank'>
+                <LinkTypography variant='h5'>Venue: Pressen</LinkTypography>
+              </UnsettedATag>
+            </Link>
+          </Grid>
+          <Grid item>
+            <Typography variant='body1'>
+              The conference will be held at Pressen in central Copenhagen, just
+              two minutes from the hotel. It is in the old printing press in
+              Politikkens Hus, which makes the space feel industrial and unique.
+              It’s just a two-minute walk from the hotel, and 10 minutes from
+              the Central Station.
+            </Typography>
+          </Grid>
+        </Grid>
+        <Grid item xs={4}>
+          <Grid item>
+            <Link
+              href={
+                'https://www.madklubben.dk/restauranter/koebenhavn/food-club/noerrebro'
+              }
+              passHref
+            >
+              <UnsettedATag target='_blank'>
+                <LinkTypography variant='h5'>Dinner: Food Club</LinkTypography>
+              </UnsettedATag>
+            </Link>
+          </Grid>
+          <Grid item>
+            <Typography variant='body1'>
+              The main dinner will be held at Nørrebro Food Club, which provides
+              an assortment of options for all.
+            </Typography>
+          </Grid>
+        </Grid>
       </Grid>
       <Grid
         item
