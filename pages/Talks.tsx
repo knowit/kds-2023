@@ -46,14 +46,15 @@ const Talks: NextPage = () => {
         },
       },
     })
-    const currentConference: DirectusConference = res.data?.find(
-      (conference) => conference
-    )
-    const fetchedTalks = currentConference.Timeslots.filter(
-      (Timeslot) => Timeslot.Type == 'talk'
-    )
-    console.log('hello', fetchedTalks)
-    setTalks(fetchedTalks.length == 0 ? [] : fetchedTalks)
+    if (res.data) {
+      const currentConference = res.data.find(
+        (conference) => conference
+      ) as unknown as DirectusConference
+      const fetchedTalks = currentConference.Timeslots.filter(
+        (Timeslot) => Timeslot.Type == 'talk'
+      )
+      setTalks(fetchedTalks.length == 0 ? [] : fetchedTalks)
+    }
   }
 
   useEffect(() => {

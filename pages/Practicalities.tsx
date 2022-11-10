@@ -1,8 +1,15 @@
-import { Grid, Typography, Paper } from '@mui/material'
+import { Grid, Typography, Paper, styled } from '@mui/material'
 import { NextPage } from 'next'
 import { useContext, useEffect } from 'react'
 import { BackgroundContext } from '../src/components/layout'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
+import Link from 'next/link'
+import { knowitDigitalLolipop, knowitSand } from '../src/styles/colors'
+const StyledAnchor = styled('a')({
+  color: knowitSand,
+  textUnderlineOffset: '3px',
+  textDecorationColor: knowitDigitalLolipop,
+})
 
 const Practicalities: NextPage = () => {
   const [_, setBackgroundUsed] = useContext(BackgroundContext)
@@ -25,7 +32,11 @@ const Practicalities: NextPage = () => {
               localization when this is complete, as well as other useful
               information. Any questions can be forwarded to{' '}
               <u>kds@knowit.no</u>. We will rapidly update with more information
-              the following month.
+              the following month.We also have a{' '}
+              <Link href='/Practicalities' passHref>
+                <StyledAnchor>Code of Conduct</StyledAnchor>
+              </Link>
+              .
             </Typography>
           </Grid>
           <Grid item>

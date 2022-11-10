@@ -22,6 +22,7 @@ const nextConfig = {
       '/Practicalities': { page: '/Practicalities' },
       '/AboutKds': { page: '/AboutKds' },
       '/Talks': { page: '/Talks' },
+      '/Location': { page: '/Location' },
       '/UnpublishedSchedulePrototype': { page: '/Program' },
     }
   },

@@ -2,9 +2,13 @@ export const trueBlack = '#000000'
 
 export const knowitDigitalWhite = '#F1f0ED'
 
-export const knowitSand = '#F1F0ED'
+export const knowitSand = '#E4E1DB'
 
 export const knowitPear = '#B7DEBD'
+
+export const knowitForest = '#4B6455'
+
+export const knowitLeather = '#7C3647'
 
 export const knowitDigitalLolipop = '#FF00FF'
 
