@@ -40,7 +40,7 @@ const Registration: NextPage = () => {
             <Typography variant='body1'>
               More information regarding speakers and locale will be made
               available in November. The deadline for participant registration
-              is <strong>13. November 2022</strong>.
+              has been extended to thr <strong>20th of November 2022</strong>.
             </Typography>
           </Grid>
           <Grid item>
