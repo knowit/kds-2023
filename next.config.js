@@ -17,13 +17,13 @@ const nextConfig = {
     return {
       '/': { page: '/' },
       '/CallForPresentations': { page: '/CallForPresentations' },
-      '/Registration': { page: '/Registration' },
+      //'/Registration': { page: '/Registration' },
       '/CodeOfConduct': { page: '/CodeOfConduct' },
       '/Practicalities': { page: '/Practicalities' },
       '/AboutKds': { page: '/AboutKds' },
       '/Talks': { page: '/Talks' },
       '/Location': { page: '/Location' },
-      '/UnpublishedSchedulePrototype': { page: '/Program' },
+      '/Schedule': { page: '/Program' },
     }
   },
 }

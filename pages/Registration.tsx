@@ -27,23 +27,13 @@ const Registration: NextPage = () => {
             <Typography variant='h4'>Registration</Typography>
           </Grid>
           <Grid item>
-            <Typography>
-              Before you register, please make yourself familiar with the
-              available information in{' '}
-              <Link href='/Practicalities' passHref>
-                <StyledAnchor>general information</StyledAnchor>
-              </Link>
-              .
-            </Typography>
-          </Grid>
-          <Grid item>
             <Typography variant='body1'>
               More information regarding speakers and locale will be made
               available in November. The deadline for participant registration
               has been extended to thr <strong>20th of November 2022</strong>.
             </Typography>
           </Grid>
-          <Grid item>
+          {/*<Grid item>
             <Link
               href='https://docs.google.com/forms/d/e/1FAIpQLScFj8XfS7TZjRBCN2PUgw3zFbgy5QxwaX3r8-PHDMnPH_95qg/viewform?usp=sf_link'
               passHref
@@ -53,7 +43,7 @@ const Registration: NextPage = () => {
                 <Typography>Register Participation</Typography>
               </Button>
             </Link>
-          </Grid>
+  </Grid> */}
         </Grid>
       </Paper>
     </ZoomInPaper>

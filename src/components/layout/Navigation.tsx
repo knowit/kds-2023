@@ -59,7 +59,8 @@ const navItems: NavItems[] = [
   { href: '/AboutKds', label: 'About' },
   { href: '/Practicalities', label: 'Practicalities' },
   { href: '/Location', label: 'Location' },
-  { href: '/Registration', label: 'Registration' },
+  //{ href: '/Registration', label: 'Registration' },
+  { href: '/Schedule', label: 'Schedule' },
   { href: '/Talks', label: 'Talks' },
   { href: 'http://kds-2021.knowit.no/', label: 'KDS 2021' },
 ]

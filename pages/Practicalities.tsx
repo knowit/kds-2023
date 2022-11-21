@@ -40,6 +40,19 @@ const Practicalities: NextPage = () => {
             </Typography>
           </Grid>
           <Grid item>
+            <Typography variant='h5'>Registration</Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant='body1'>
+              Registration deadlines was on the <b>20th of November</b> and is
+              now closed. We thank you for your engagement as we experience
+              record breaking interest in the summit. If you wish to enquire
+              about late registration, we may have a few spots open. Contact{' '}
+              <u>kds@knowit.no</u> and we will see if we have any remaining
+              room.
+            </Typography>
+          </Grid>
+          <Grid item>
             <Typography variant='h5'>Price Model</Typography>
           </Grid>
           <Grid item>

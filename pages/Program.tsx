@@ -6,6 +6,7 @@ import {
   styled,
   Typography,
   useMediaQuery,
+  Paper,
   useTheme,
 } from '@mui/material'
 import { DateTime } from 'luxon'
@@ -33,6 +34,7 @@ import {
   IntegratedGrouping,
   ViewState,
 } from '@devexpress/dx-react-scheduler'
+import { knowitDigitalLolipop } from '../src/styles/colors'
 
 const OverrideStart = styled(Grid)({
   '.Container-container > .MainLayout-container > div > .MainLayout-header > div > div > table > tbody > tr:last-of-type':
@@ -42,11 +44,9 @@ const OverrideStart = styled(Grid)({
 })
 
 const Content = ({
-  children,
   appointmentData,
   ...restProps
 }: AppointmentTooltip.ContentProps) => {
-  console.log(appointmentData)
   return (
     <Box margin={2}>
       <Grid container>
@@ -197,24 +197,60 @@ const Program: NextPage = () => {
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.down('md'))
   return (
-    <Grid container>
+    <Grid container spacing={2} justifyContent='center'>
       <Grid item>
-        <Typography variant='h1' color='red'>
-          PROTOTYPE THIS IS NOT THE PUBLISHED PROGRAM{' '}
-        </Typography>
-      </Grid>
-      <Grid item container>
-        <Grid item onClick={() => setCurrentDay('2023-02-03')}>
-          <Button variant='roundButton'>Friday</Button>
-        </Grid>
-        <Grid item>
-          <Button
-            onClick={() => setCurrentDay('2023-02-04')}
-            variant='roundButton'
-          >
-            Saturday
-          </Button>
-        </Grid>
+        <Paper variant='glass'>
+          <Grid item>
+            <Typography variant='h4' textAlign={'center'}>
+              Schedule
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography>
+              Here is the first draft for the Knowit Development Summit. Please
+              note that the program is not yet set in stone and subject to
+              change. If you have any inquires about changing your presentation
+              info, contact contact <u>johnny.bjanesoy@knowit.no</u>. For
+              cancellations or other inquiries, contact <u>kds@knowit.no</u>{' '}
+            </Typography>
+          </Grid>
+          <Grid item container justifyContent={'center'} spacing={4}>
+            <Grid item onClick={() => setCurrentDay('2023-02-03')}>
+              <Button variant='roundButton' sx={{ width: '9rem' }}>
+                <Typography
+                  sx={{
+                    fontSize: '20px',
+                    color:
+                      currentDay === '2023-02-03'
+                        ? knowitDigitalLolipop
+                        : 'inherit',
+                  }}
+                >
+                  Friday
+                </Typography>
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                sx={{ width: '9rem' }}
+                onClick={() => setCurrentDay('2023-02-04')}
+                variant='roundButton'
+              >
+                <Typography
+                  sx={{
+                    fontSize: '20px',
+                    color:
+                      currentDay === '2023-02-04'
+                        ? knowitDigitalLolipop
+                        : 'inherit',
+                  }}
+                >
+                  Saturday
+                </Typography>
+              </Button>
+            </Grid>
+          </Grid>
+        </Paper>
       </Grid>
       <OverrideStart item container sx={{}}>
         {schedule.length > 0 && resource.length > 0 ? (
