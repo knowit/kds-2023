@@ -68,10 +68,7 @@ const Home: NextPage = () => {
                 View Talks
               </MuiLink>
             </Link>
-            <Link
-              href='https://docs.google.com/forms/d/e/1FAIpQLScFj8XfS7TZjRBCN2PUgw3zFbgy5QxwaX3r8-PHDMnPH_95qg/viewform?usp=sf_link'
-              passHref
-            >
+            <Link href='/Schedule' passHref>
               <MuiLink
                 underline='hover'
                 variant='body1'
@@ -81,7 +78,7 @@ const Home: NextPage = () => {
                 display='flex'
               >
                 <ArrowForwardIcon sx={{ marginRight: '10px' }} />
-                Register participant
+                View Program
               </MuiLink>
             </Link>
           </Grid>
