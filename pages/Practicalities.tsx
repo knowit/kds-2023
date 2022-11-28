@@ -91,7 +91,7 @@ const Practicalities: NextPage = () => {
           </Grid>
           <Grid item>
             <Typography variant='body1'>
-              You may cancel before the 1st of December 2022 free of charge.
+              You may cancel before the 6th of December 2022 free of charge.
               After this, a cancellation fee up to the full price can be billed
               to your company if neither you nor we can find someone else to
               take your spot. If you wish to cancel or change anything else
