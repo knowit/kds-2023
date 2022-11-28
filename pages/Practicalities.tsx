@@ -32,7 +32,7 @@ const Practicalities: NextPage = () => {
               localization when this is complete, as well as other useful
               information. Any questions can be forwarded to{' '}
               <u>kds@knowit.no</u>. We will rapidly update with more information
-              the following month.We also have a{' '}
+              the following month. We also have a{' '}
               <Link href='/CodeOfConduct' passHref>
                 <StyledAnchor>Code of Conduct</StyledAnchor>
               </Link>
