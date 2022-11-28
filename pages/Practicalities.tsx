@@ -33,7 +33,7 @@ const Practicalities: NextPage = () => {
               information. Any questions can be forwarded to{' '}
               <u>kds@knowit.no</u>. We will rapidly update with more information
               the following month.We also have a{' '}
-              <Link href='/Practicalities' passHref>
+              <Link href='/CodeOfConduct' passHref>
                 <StyledAnchor>Code of Conduct</StyledAnchor>
               </Link>
               .

@@ -58,6 +58,7 @@ interface NavItems {
 const navItems: NavItems[] = [
   { href: '/AboutKds', label: 'About' },
   { href: '/Practicalities', label: 'Practicalities' },
+  { href: '/CodeOfConduct', label: 'Code Of Conduct' },
   { href: '/Location', label: 'Location' },
   //{ href: '/Registration', label: 'Registration' },
   { href: '/Schedule', label: 'Schedule' },
