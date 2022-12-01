@@ -24,6 +24,7 @@ const nextConfig = {
       '/Talks': { page: '/Talks' },
       '/Location': { page: '/Location' },
       '/Schedule': { page: '/Program' },
+      '/Logo': { page: '/Logo' }
     }
   },
 }
