@@ -25,12 +25,6 @@ const AboutKds: NextPage = () => {
             and we make up its audience.`}
             </Typography>
             <Typography variant='body1'>
-              {`Knowit Developer Summit (KDS) is Knowit's internal software
-            development conference. The conference is put on by, and for, our
-            passionate developers at Knowit: we arrange it, we are its speakers,
-            and we make up its audience.`}
-            </Typography>
-            <Typography variant='body1'>
               {`The ambition for KDS is that it will be held annually and that its
             location varies from year to year. The conference begins during
             Friday around lunchtime and runs until Saturday afternoon.A
