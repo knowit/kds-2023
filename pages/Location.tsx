@@ -30,7 +30,7 @@ const Location: NextPage = () => {
   return (
     <Grid container justifyContent={'center'}>
       <Grid item container xs={12} columnSpacing={2}>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={3}>
           <Paper variant='glass'>
             <Link href={'https://www.thesquarecopenhagen.com/'} passHref>
               <UnsettedATag target='_blank'>
@@ -47,7 +47,7 @@ const Location: NextPage = () => {
             </Grid>
           </Paper>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={3}>
           <Paper variant='glass'>
             <Link href={'https://www.imperial-hotel-copenhagen.com/'} passHref>
               <UnsettedATag target='_blank'>
@@ -63,7 +63,7 @@ const Location: NextPage = () => {
             </Grid>
           </Paper>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={3}>
           <Grid item>
             <Link
               href={'https://politiken.dk/indland/art7424866/Pressen'}
@@ -84,7 +84,7 @@ const Location: NextPage = () => {
             </Typography>
           </Grid>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={3}>
           <Grid item>
             <Link
               href={
@@ -128,6 +128,7 @@ const Location: NextPage = () => {
             longitude={12.56697}
             color={knowitDigitalLolipop}
           />
+    
           <Marker
             latitude={55.67713}
             longitude={12.5682}
