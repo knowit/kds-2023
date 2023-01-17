@@ -39,9 +39,25 @@ const Location: NextPage = () => {
             </Link>
             <Grid item>
               <Typography variant='body1'>
-                This year we are staying at The Square hotel in the middle of
+                One of the hotels some are staying at is The Square hotel in the middle of
                 Copenhagen, close to the Tivoli and City Hall. It is only a
                 10-minute walk from the Central Station to the hotel, and only 2
+                minutes to the conference venue.
+              </Typography>
+            </Grid>
+          </Paper>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <Paper variant='glass'>
+            <Link href={'https://www.imperial-hotel-copenhagen.com/'} passHref>
+              <UnsettedATag target='_blank'>
+                <LinkTypography variant='h5'>Hotel: Imperial Hotel</LinkTypography>
+              </UnsettedATag>
+            </Link>
+            <Grid item>
+              <Typography variant='body1'>
+                The other hotel some people are staying at is Imperial hotel. It is only a
+                6-minute walk from the Central Station to the hotel, and 8
                 minutes to the conference venue.
               </Typography>
             </Grid>
@@ -120,6 +136,11 @@ const Location: NextPage = () => {
           <Marker
             latitude={55.68822}
             longitude={12.56287}
+            color={knowitDigitalLolipop}
+          />
+          <Marker
+            latitude={55.67571}
+            longitude={12.56161}
             color={knowitDigitalLolipop}
           />
         </Map>
