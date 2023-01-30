@@ -14,7 +14,6 @@ export const TalkOverview = ({
   tagFilters: string[]
   handleTagClick: (tag: string) => void
 }) => {
-  console.log(timeslot.Rooms)
   return (
     <Paper variant='transparent' sx={{ maxWidth: '1000px' }}>
       <Grid container>
