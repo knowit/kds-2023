@@ -39,6 +39,7 @@ const Talks: NextPage = () => {
         'Timeslots.Talk.Speakers.Speaker_SpeakerId.Description',
         'Timeslots.Talk.Speakers.Speaker_SpeakerId.SpeakerId',
         'Timeslots.Talk.Speakers.Speaker_SpeakerId.SpeakerName',
+        'Timeslots.Rooms.Room_RoomId.Name',
       ],
       filter: {
         Name: {

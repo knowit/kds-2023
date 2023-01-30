@@ -3,6 +3,7 @@ import { DirectusTimeslot } from '../../types'
 import AccessTimeIcon from '@mui/icons-material/AccessTime'
 import PublicIcon from '@mui/icons-material/Public'
 import RoomIcon from '@mui/icons-material/Room'
+import { DateTime } from 'luxon'
 
 export const TalkOverview = ({
   timeslot,
@@ -13,6 +14,7 @@ export const TalkOverview = ({
   tagFilters: string[]
   handleTagClick: (tag: string) => void
 }) => {
+  console.log(timeslot.Rooms)
   return (
     <Paper variant='transparent' sx={{ maxWidth: '1000px' }}>
       <Grid container>
@@ -23,10 +25,7 @@ export const TalkOverview = ({
             </Grid>
             <Grid item>
               <Typography>
-                {/*DateTime.fromISO(timeslot.StartTime).toFormat(
-                  'dd.LL HH:mm'
-                ) */}
-                TBA
+                {DateTime.fromISO(timeslot.StartTime).toFormat('dd.LL HH:mm')}
               </Typography>
             </Grid>
           </Grid>
@@ -35,7 +34,9 @@ export const TalkOverview = ({
               <RoomIcon />
             </Grid>
             <Grid>
-              <Typography>TBA</Typography>
+              <Typography>
+                {timeslot.Rooms[0].Room_RoomId.Name ?? 'TBA'}
+              </Typography>
             </Grid>
           </Grid>
           <Grid item container alignItems='center' columnSpacing={1} xs={4}>

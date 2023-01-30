@@ -18,13 +18,14 @@ const nextConfig = {
       '/': { page: '/' },
       '/CallForPresentations': { page: '/CallForPresentations' },
       //'/Registration': { page: '/Registration' },
+      '/Faq': { page: '/Faq' },
       '/CodeOfConduct': { page: '/CodeOfConduct' },
       '/Practicalities': { page: '/Practicalities' },
       '/AboutKds': { page: '/AboutKds' },
       '/Talks': { page: '/Talks' },
       '/Location': { page: '/Location' },
       '/Schedule': { page: '/Program' },
-      '/Logo': { page: '/Logo' }
+      '/Logo': { page: '/Logo' },
     }
   },
 }

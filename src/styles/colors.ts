@@ -10,6 +10,8 @@ export const knowitForest = '#4B6455'
 
 export const knowitLeather = '#7C3647'
 
+export const knowitMelon = '#FAC0B1'
+
 export const knowitDigitalLolipop = '#FF00FF'
 
 export const knowitDigitalBlack = '#333333'
