@@ -262,7 +262,7 @@ const Program: NextPage = () => {
             />
             <DayView
               startDayHour={currentDay == '2023-02-03' ? 10 : 8}
-              endDayHour={currentDay == '2023-02-03' ? 18 : 14}
+              endDayHour={currentDay == '2023-02-03' ? 20 : 14}
               cellDuration={10}
             />
             <Appointments />
