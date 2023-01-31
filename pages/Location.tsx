@@ -7,7 +7,7 @@ import { CityMap } from '../src/components/modules/Map'
 import VenueMap from '../src/components/modules/Venue'
 
 const Location: NextPage = () => {
-  const [_, setBackgroundUsed] = useContext(BackgroundContext)
+  const [x, setBackgroundUsed] = useContext(BackgroundContext)
   const [currentView, setCurrentView] = useState<string>(storedProcedure())
 
   function storedProcedure() {
