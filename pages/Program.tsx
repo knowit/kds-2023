@@ -57,7 +57,7 @@ const Content = ({
           <>
             <Grid item xs={12}>
               <Typography variant='caption'>
-                {appointmentData.talk.Tags.join(', ')}
+                {appointmentData.talk.Tags?.join(', ')}
               </Typography>
             </Grid>
             <Grid item xs={12}>
