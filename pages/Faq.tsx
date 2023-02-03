@@ -57,6 +57,15 @@ const Faq: NextPage = () => {
                 information. If you cannot find the info, contact us at{' '}
                 <a>kds@knowit.no</a>
               </CleanList>
+              <CleanList>
+                <strong>Q: </strong> Is there wifi?
+              </CleanList>
+              <br />
+              <CleanList>
+                <strong>A: </strong> Yes! When in pressen, the SSID is pressen.
+                Password is pressen19 . If in track four, the hotel has its own
+                open network.
+              </CleanList>
             </ul>
           </Grid>
           <Grid item>
