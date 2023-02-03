@@ -78,9 +78,9 @@ const Faq: NextPage = () => {
                 conference cost?
               </CleanList>
               <CleanList>
-                <strong>A: </strong> As stated in <a href='/practicalities'></a>
-                , the conference price does not cover travel, nor do we book for
-                people.
+                <strong>A: </strong> As stated in{' '}
+                <a href='/practicalities'>Practicalities</a>, the conference
+                price does not cover travel, nor do we book for people.
               </CleanList>
               <br />
               <CleanList>
