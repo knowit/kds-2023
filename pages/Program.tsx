@@ -206,13 +206,16 @@ const Program: NextPage = () => {
             </Typography>
           </Grid>
           <Grid item>
-            <Typography>
-              Here is the first draft for the Knowit Development Summit. Please
-              note that the program is not yet set in stone and subject to
-              change. If you have any inquires about changing your presentation
-              info, contact contact <u>johnny.bjanesoy@knowit.no</u>. For
-              cancellations or other inquiries, contact <u>kds@knowit.no</u>{' '}
-            </Typography>
+            {isMobile && (
+              <Typography>
+                <strong>!important</strong>
+                The tracks are split into columns when in mobile. You will find
+                the other tracks by scrolling. Some mobile browsers might have
+                finicky touch interactions, so try to hit different regions. The
+                developer will try to attend some test talks to alleviate future
+                issues.
+              </Typography>
+            )}
           </Grid>
           <Grid item container justifyContent={'center'} spacing={4}>
             <Grid item onClick={() => setCurrentDay('2023-02-03')}>
