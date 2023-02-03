@@ -24,6 +24,17 @@ const Faq: NextPage = () => {
             </Typography>
           </Grid>
           <Grid item xs={12}>
+            <CleanList>
+              <strong>Q: </strong> Is there wifi?
+            </CleanList>
+            <br />
+            <CleanList>
+              <strong>A: </strong> Yes! When in pressen, the SSID is pressen.
+              Password is pressen19 . If in track four, the hotel has its own
+              open network.
+            </CleanList>
+          </Grid>
+          <Grid item xs={12}>
             <Typography variant='h5' textAlign={'center'}>
               Hotels
             </Typography>
@@ -56,15 +67,6 @@ const Faq: NextPage = () => {
                 <strong>A: </strong> You should have received an email with this
                 information. If you cannot find the info, contact us at{' '}
                 <a>kds@knowit.no</a>
-              </CleanList>
-              <CleanList>
-                <strong>Q: </strong> Is there wifi?
-              </CleanList>
-              <br />
-              <CleanList>
-                <strong>A: </strong> Yes! When in pressen, the SSID is pressen.
-                Password is pressen19 . If in track four, the hotel has its own
-                open network.
               </CleanList>
             </ul>
           </Grid>
