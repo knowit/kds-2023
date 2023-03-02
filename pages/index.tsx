@@ -1,4 +1,4 @@
-import { Grid, styled, Link as MuiLink, Paper } from '@mui/material'
+import { Grid, styled, Link as MuiLink, Paper, Typography } from '@mui/material'
 import { NextPage } from 'next'
 import { ZoomInPaper } from '../src/components/papers/ZoomInPaper'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
@@ -54,6 +54,10 @@ const Home: NextPage = () => {
             flexDirection='column'
             alignItems='center'
           >
+            <Typography>
+              Thank you all for making KDS2023 an amazing conference! We look
+              forward to seeing you all at KDS 2024
+            </Typography>
             <Link href='/Talks' passHref>
               <MuiLink
                 underline='hover'

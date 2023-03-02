@@ -10,6 +10,7 @@ import {
   knowitPear,
   knowitSand,
 } from '../../styles/colors'
+
 const LinkTypography = styled(Typography)({
   textAlign: 'center',
   textDecoration: 'underline',

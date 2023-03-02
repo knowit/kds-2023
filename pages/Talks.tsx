@@ -16,6 +16,7 @@ import CloseIcon from '@mui/icons-material/Close'
 import { BackgroundContext } from '../src/components/layout'
 import { knowitPear } from '../src/styles/colors'
 import { TalkOverview } from '../src/components/modules'
+import talks_json from '../src/constants/talks.json'
 
 const Talks: NextPage = () => {
   //Set Background
@@ -28,6 +29,7 @@ const Talks: NextPage = () => {
   const [talks, setTalks] = useState<DirectusTimeslot[]>()
 
   const getTalks = async () => {
+    /*
     const res = await directus.items('Conference').readByQuery({
       limit: 1,
       fields: [
@@ -54,8 +56,9 @@ const Talks: NextPage = () => {
       const fetchedTalks = currentConference.Timeslots.filter(
         (Timeslot) => Timeslot.Type == 'talk'
       )
-      setTalks(fetchedTalks.length == 0 ? [] : fetchedTalks)
-    }
+      console.log(fetchedTalks)
+      */
+    setTalks(talks_json as unknown as DirectusTimeslot[])
   }
 
   useEffect(() => {
@@ -114,14 +117,6 @@ const Talks: NextPage = () => {
                 conference. Timeslots and programs will be published at a later
                 date.
               </Typography>
-              <Grid item>
-                <Typography>
-                  If you are a presentor and wish to make any changes to your
-                  presentation info, contact <u>johnny.bjanesoy@knowit.no </u>.
-                  For cancellations or other inquiries, contact{' '}
-                  <u>kds@knowit.no</u>
-                </Typography>
-              </Grid>
             </Grid>
           </Grid>
         </Paper>

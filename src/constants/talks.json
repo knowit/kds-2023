@@ -1,0 +1,2216 @@
+[
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:00:00",
+    "Talk": {
+      "TalkId": "adb16073-32d5-413a-9ea4-0e562bf486ba",
+      "sort": null,
+      "date_created": "2022-10-27T07:20:44.160Z",
+      "date_updated": "2023-02-01T12:21:28.296Z",
+      "Description": "Cancelled",
+      "Duration": 30,
+      "Title": "[Cancelled] Demystifying TLS encryption and certificates",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Security"],
+      "Speakers": [
+        {
+          "id": 39,
+          "Talk_TalkId": "adb16073-32d5-413a-9ea4-0e562bf486ba",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit - Miracle A/S",
+            "Description": "TBA",
+            "SpeakerId": "3408d76f-008d-49d2-a48f-b9d1a2b1a941",
+            "SpeakerName": "Martin Thykier"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:50:00",
+    "Talk": {
+      "TalkId": "da8dc0e5-c1e9-42eb-aaf3-58e765171f19",
+      "sort": null,
+      "date_created": "2022-10-27T08:40:26.148Z",
+      "date_updated": "2022-10-31T08:15:06.293Z",
+      "Description": "Dall-E Will/Wont replace you\nOne of the biggest innovations in tech recently is AI seemingly mastery of the fine arts. Be it realistic photos, evocative digital art to ripping of famous artist, we somehow seem to have passed a threshold. This begs the question: how have we managed to automate the artistic process, and are illustrators now jobless?\nThis lighting talk will give a quick laymen understanding on the typical Image Generation Architecture and how AI’s now can generate never before seen art, but also highlight some of the top limitations you may encounter when trying to take it from a gimmick to a tool.\nWill Dall-e replace you? Maybe it will, maybe it won’t. I will not tell you, but I will show you.",
+      "Duration": 10,
+      "Title": "Dall-E will/wont replace you",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Design", "Machine Learning"],
+      "Speakers": [
+        {
+          "id": 61,
+          "Talk_TalkId": "da8dc0e5-c1e9-42eb-aaf3-58e765171f19",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Bergen AS",
+            "Description": "Jack of all trades potato from Knowit Experience, recently tasked with investigating how Dall-E will our workflow",
+            "SpeakerId": "d5b56020-842f-4acf-a5bf-b71260d248e8",
+            "SpeakerName": "Johnny Bjånesøy"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T16:30:00",
+    "Talk": {
+      "TalkId": "aa4da9b6-1f33-40d1-9dd5-bc6f478a6676",
+      "sort": null,
+      "date_created": "2022-10-26T13:00:50.441Z",
+      "date_updated": "2022-12-06T07:19:30.803Z",
+      "Description": "You don't usually see mutation testing in the standard \"testing pyramids\". The reason is that mutation tests, in essense, evaluate the quality of the tests that are written for the project.\nIn this talk, I would first introduce the concept of mutation testing, disucss how they can improve the quality of your code, and how it can optimize your current gateways for code quality.\nAt the end, I will show a hands on demo of creating mutation tests in a .net project. However, people from other tech stacks can definitly find value in this talk since the concept is the same everywhere.",
+      "Duration": 30,
+      "Title": "What do x-men and developing software have in common? An introduction to mutation testing in .net",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["Test", ".Net", "Backend", "Code Quality"],
+      "Speakers": [
+        {
+          "id": 12,
+          "Talk_TalkId": "aa4da9b6-1f33-40d1-9dd5-bc6f478a6676",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Malmö",
+            "Description": "Amir is currently working as Tech lead in one of the IKEA projects. His main teck stack of choice is .net and he always enjoys learning, and teaching new and more optimal ways of solving problems. He has almost ten years of experince developing different solutions in different areas and spaces such as .net, Android, flutter, and webflow",
+            "SpeakerId": "b2f7706e-0566-4cd3-afe8-4c07f916556d",
+            "SpeakerName": "Amir Roosta"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T17:20:00",
+    "Talk": {
+      "TalkId": "36e94368-ba41-4308-9979-d2a275ceed43",
+      "sort": null,
+      "date_created": "2022-10-27T08:38:15.155Z",
+      "date_updated": "2022-10-28T08:32:46.591Z",
+      "Description": "\"A developer is looking for a creative solution to a problem, while a tester tries to find any possible way to break that solution”\n\nThis talk explores the experience from being a team lead for developers, testers and functional team members during the previous year, spiced up with comparing this to a completely unrelated (or is it?) profession.",
+      "Duration": 10,
+      "Title": "Tester-developer cooperation",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Test", "Collaboration"],
+      "Speakers": [
+        {
+          "id": 60,
+          "Talk_TalkId": "36e94368-ba41-4308-9979-d2a275ceed43",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Bergen",
+            "Description": "Åsmund is a long term nerd, full stack developer / team lead working mostly with fintech the last years. For each bug he makes, another hair turns grey.",
+            "SpeakerId": "b18432ed-e827-4185-9fe6-efd5d3c76d01",
+            "SpeakerName": "Åsmund Garfors AS"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:00:00",
+    "Talk": {
+      "TalkId": "45ad3d3c-de41-4dd4-8a97-53249623a39e",
+      "sort": null,
+      "date_created": "2022-10-26T12:48:41.838Z",
+      "date_updated": "2022-10-28T07:11:28.991Z",
+      "Description": "Presentation of the implemented Artificial Intelligence (AI) system to provide training recommendations and evaluate decision-making algorithms for running pace adjustment and training distance fitting based on fuzzy logic.",
+      "Duration": 30,
+      "Title": "Running Pace Adjustment and Training Distance Fitting with Fuzzy Logic and Machine Learning",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Machine Learning"],
+      "Speakers": [
+        {
+          "id": 7,
+          "Talk_TalkId": "45ad3d3c-de41-4dd4-8a97-53249623a39e",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Poland Sp. z o.o.",
+            "Description": "Adam is a Senior Software Engineer, working as a full-stack developer with .Net framework and JavaScript languages. Also, he is an internal technology trainer and Microsoft Certified Trainer from the MS Azure Cloud technology. Simultaneously, Adam is a Ph.D. candidate at Interdisciplinary Doctoral School @ the Lodz University of Technology. Privately a happy husband, a proud father of two sons, and a Catholic believer.",
+            "SpeakerId": "9b226358-d411-4406-92b6-18c11a089721",
+            "SpeakerName": "Adam Dziomdziora"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T09:40:00",
+    "Talk": {
+      "TalkId": "b2da947a-1087-4761-ae03-62399daae69b",
+      "sort": null,
+      "date_created": "2022-10-27T08:31:01.304Z",
+      "date_updated": "2022-10-28T08:29:19.414Z",
+      "Description": "Kotlin allows for compiling to many different platforms/languages through different kotlin modules. Kotlin/JVM compiles for the Java Virtual Machine (JVM), Kotlin/JS compiles Kotlin code into javascript code, and through Kotlin/Native we can compile Kotlin to machinecode for any platform (for example IOS, Android, Windows, Linux and Mac).\n\nThrough Kotlins new multiplatform project we use these modules to compile kotlin for multiple platforms at the same time. This allows us to use Kotlin as a fullstack language for website development, where the backend/api and the frontend/website are both completly written i Kotlin. This gives us some benefits like allowings us to leverage Kotlins language advantages everywhere we want, and lets us share common code between the frontend and the backend.\n\nI have tried this out for a hobby site and I will try to present the advantages and disadvantages kotlin/multiplatform brings to the web scene. At the same time we will look at some interesting things they are doing with multiplatform, how multiplatform works, and the interesting possibilities kotlin/multiplatform creates.",
+      "Duration": 30,
+      "Title": "Kotlin: A fullstack language for web?",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Kotlin", "Fullstack", "Frontend", "Backend"],
+      "Speakers": [
+        {
+          "id": 54,
+          "Talk_TalkId": "b2da947a-1087-4761-ae03-62399daae69b",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "A young guy interested in all things development, with special interest in backend.",
+            "SpeakerId": "6ed68cba-4ab4-40bb-b440-6296101c52a2",
+            "SpeakerName": "Tom Martin Roberg"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T17:20:00",
+    "Talk": {
+      "TalkId": "5e528361-fee9-4396-af1a-9e652086a6cd",
+      "sort": null,
+      "date_created": "2022-10-26T13:24:49.690Z",
+      "date_updated": "2023-01-13T11:53:30.277Z",
+      "Description": "After commiting and pushing your new code, you most likely don't want to waste time on writing a detailed pull request on what has been done. Maybe it's a small code change or a really big one where you can't quite remember everything.\n\nSo what can you do to make pull requests more effective in regards to the others on the team, and even use it as documentation on the work done.\n\nI will talk about my experience from when I started on a team untill today, and what I found most effective in regards to making and reviewing a PR, as well as using it as a form for documentation and to exchange insight that one can learn from.",
+      "Duration": 10,
+      "Title": "Not all PRs are good PRs",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Code Quality", "Way of Work"],
+      "Speakers": [
+        {
+          "id": 27,
+          "Talk_TalkId": "5e528361-fee9-4396-af1a-9e652086a6cd",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Bergen AS",
+            "Description": "Full-stack developer at Knowit Experience Bergen since august 2020. A Bachelor's degree in Computer Technology from the University of Bergen",
+            "SpeakerId": "b983e376-37af-46e8-8352-e6ef914f5f78",
+            "SpeakerName": "Joacim Sveen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T17:30:00",
+    "Talk": {
+      "TalkId": "fa6151f7-8b40-4487-8de2-cf5f118bfc32",
+      "sort": null,
+      "date_created": "2022-10-26T13:21:50.243Z",
+      "date_updated": "2022-10-28T07:48:48.583Z",
+      "Description": "I have buillt my own magic mirror. It is a mirror, hanging on a wall in my hallway. It is also a monitor with a transparent glass - powered by a raspberry pi running Linux. It also displays the heating of my house, when the bus is leaving, the family calendar, the cost of electricity and how much I save by turning on/off the water heater. I will quickly explain the technology behind all this, and how you can make your own magic mirror.",
+      "Duration": 10,
+      "Title": "Building a Magic mirror",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Open Source", "IoT"],
+      "Speakers": [
+        {
+          "id": 25,
+          "Talk_TalkId": "fa6151f7-8b40-4487-8de2-cf5f118bfc32",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Solutions Norway AS",
+            "Description": "Jan Henrik works at Knowit Solutions in Oslo, Norway. He is an active advocate for internal community of practice and the life time education of consultants. He works closely with academic institutions, bridging the gap between academia and practice - se knowit.no/forskning. He also helps out with sales and marketing.",
+            "SpeakerId": "04a2dc95-774a-4c5d-b796-d064a0360970",
+            "SpeakerName": "Jan Henrik Gundelsby"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T14:20:00",
+    "Talk": {
+      "TalkId": "94a136a2-0a1c-4d56-98d6-01a72f22d87a",
+      "sort": null,
+      "date_created": "2022-10-27T07:33:22.772Z",
+      "date_updated": "2022-10-28T08:20:31.219Z",
+      "Description": "Testing can be scary, hard and outright intimidating. But it doesn't have to be! A good toolbox and a simple mindset is all that is needed. Join me as I walk through what to test and how, in order to gain the most confidence in your code.",
+      "Duration": 30,
+      "Title": "Good frontend testing practices to boost your confidence",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Frontend", "Test"],
+      "Speakers": [
+        {
+          "id": 45,
+          "Talk_TalkId": "94a136a2-0a1c-4d56-98d6-01a72f22d87a",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Aarhus",
+            "Description": "Senior frontend developer @ Knowit Experience, Aarhus, Denmark. I've worked with frontend full-time for 6-7 years, primarily with Angular at an enterprise level.\n\nBesides the work stuff, I'm a happy father of two energetic boys and I nerd out over retro games, web components and good pizza.",
+            "SpeakerId": "e657ba8a-5202-4930-ba9c-821db58dde7f",
+            "SpeakerName": "Poul Holger Hjorth Hansen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:40:00",
+    "Talk": {
+      "TalkId": "afd253d8-8351-43b8-9fee-087ee95551fd",
+      "sort": null,
+      "date_created": "2022-10-27T08:41:56.300Z",
+      "date_updated": "2022-11-15T09:28:41.509Z",
+      "Description": "Introduction on how we as Manage Service Provider for GCP manage customer environment and using IaaC (Infrastructure-as-a-Code).",
+      "Duration": 30,
+      "Title": "Managing GCP environment at enterprise scale: case Cargotec",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["Cloud", "GCP"],
+      "Speakers": [
+        {
+          "id": 62,
+          "Talk_TalkId": "afd253d8-8351-43b8-9fee-087ee95551fd",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud Partnerships Oy",
+            "Description": "Cloud Advisor / GCP Tech Lead\n\nI started working at Cybercom in 2014 as SysAdmin in 24/7 Service Desk. After finishing (most of) my studies at the university I moved to consultancy business focusing on AWS. Over the years I have been working with multiple customer projects in the cloud. During the past couple of yeaes I have been focusing on GCP and currently acting as GCP Architect for Cargotec (while running my GCP Tech Lead tasks).",
+            "SpeakerId": "6192bb3f-41e2-46f3-96c0-337890f4745e",
+            "SpeakerName": "Henry Hynynen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T17:10:00",
+    "Talk": {
+      "TalkId": "4ed54842-107c-4ecd-b0db-34da76808e62",
+      "sort": null,
+      "date_created": "2022-10-26T13:12:07.366Z",
+      "date_updated": "2022-10-28T07:31:03.945Z",
+      "Description": "How can we make our colleagues day a little better with variable-naming? What are the best practices? In this talk we can (hopefully) get some insight on how naming variables can be super beneficial.",
+      "Duration": 10,
+      "Title": "What is a Foo?",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Code Quality"],
+      "Speakers": [
+        {
+          "id": 18,
+          "Talk_TalkId": "4ed54842-107c-4ecd-b0db-34da76808e62",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Bergen AS",
+            "Description": "Even works at Knowit Experience in Bergen. He has a M.Sc in software engineering, which he wrote with the ALICE experiment at CERN.",
+            "SpeakerId": "b04f43ac-4428-4fb0-b13d-a631d4e5990b",
+            "SpeakerName": "Even Berge Sandvik"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:00:00",
+    "Talk": {
+      "TalkId": "051d19fd-c496-4a17-9193-44781f5390c9",
+      "sort": null,
+      "date_created": "2022-10-27T08:24:22.530Z",
+      "date_updated": "2022-10-28T08:26:28.025Z",
+      "Description": "Authentication with Cognito\nResolve to data sources (RDS, Lambda...)\nAutomatic generation of code interfaces and documentation",
+      "Duration": 30,
+      "Title": "Using GraphQL in AWS (Appsync)",
+      "Language": "english",
+      "Difficulty": "advanced",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["AWS", "GraphQL"],
+      "Speakers": [
+        {
+          "id": 50,
+          "Talk_TalkId": "051d19fd-c496-4a17-9193-44781f5390c9",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud & Architecture AB",
+            "Description": "Sven Hilding is a solutions architect and developer\nHe has worked as a consultant +20 years and with AWS 4 years\nHe is a certified AWS architect and developer (associate)",
+            "SpeakerId": "e423717c-3be4-4310-bed4-d4c168ac12c3",
+            "SpeakerName": "Sven Hilding"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T14:20:00",
+    "Talk": {
+      "TalkId": "7c0f5262-e794-49de-bc0c-df6029487618",
+      "sort": null,
+      "date_created": "2023-01-17T18:00:25.502Z",
+      "date_updated": null,
+      "Description": "In this session I will present to you my self-driving vehicle trained using reinforcement learning. The agent is self-taught, without the use of human input. By using cutting edge technology, I have surpassed the likes of Google and Tesla to solve self-driving vehicles - at least in a video game they didn’t try to solve: TrackMania, a popular racing game. I will present the different parts of my pipeline, ranging from the features that are used to how the car performs actions and the model training itself, which was done using OpenAIs state-of-the-art algorithm called proximal policy optimization. Most importantly, you will get to see the AI in action.\n\nWhether you have prior experience with machine learning or not, I believe you will find the presentation interesting. The talk will contain technical aspects, but they will be presented and explained in a way that makes it possible for beginners and non-technical audience to follow. Perhaps you’re just a curious TrackMania veteran? I will try to make justice to the game you love.\n\nJoin me for half an hour of fun and entertainment. As a bonus, you might learn something as well!",
+      "Duration": 30,
+      "Title": "Building a level 5 autonomous vehicle (in TrackMania)",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["OpenAI", "Machine Learning", "Game"],
+      "Speakers": [
+        {
+          "id": 81,
+          "Talk_TalkId": "7c0f5262-e794-49de-bc0c-df6029487618",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "Malte is a passionate machine learning engineer from Knowit Objectnet in Oslo. Through various projects for big Norwegian companies, he has gathered knowledge about data engineering and machine learning development. Currently, he helps Entur develop their AI and Data platform. In addition to this, he is the founder of Artificial Chapter, Knowit Objectnets internal group for sharing knowledge related to artificial intelligence.\n\nAside from his consultancy job, Malte enjoys sharing knowledge and holding talks at various conferences. Since starting his career he has held workshops and talks at several international conferences, and he will continue doing exactly that until a global pandemic stops him - if even a global pandemic can stop him!",
+            "SpeakerId": "b2359cc6-dfd5-49f6-9871-9db2a866c978",
+            "SpeakerName": "Malte Loller-Andersen"
+          }
+        },
+        {
+          "id": 82,
+          "Talk_TalkId": "7c0f5262-e794-49de-bc0c-df6029487618",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "Malte is a passionate machine learning engineer from Knowit Objectnet in Oslo. Through various projects for big Norwegian companies, he has gathered knowledge about data engineering and machine learning development. Currently, he helps Entur develop their AI and Data platform. In addition to this, he is the founder of Artificial Chapter, Knowit Objectnets internal group for sharing knowledge related to artificial intelligence.\n\nAside from his consultancy job, Malte enjoys sharing knowledge and holding talks at various conferences. Since starting his career he has held workshops and talks at several international conferences, and he will continue doing exactly that until a global pandemic stops him - if even a global pandemic can stop him!",
+            "SpeakerId": "b2359cc6-dfd5-49f6-9871-9db2a866c978",
+            "SpeakerName": "Malte Loller-Andersen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T15:10:00",
+    "Talk": {
+      "TalkId": "2161cc9a-919f-46ea-8139-8838bf5a927e",
+      "sort": null,
+      "date_created": "2022-10-27T08:23:17.090Z",
+      "date_updated": "2022-10-28T08:25:22.891Z",
+      "Description": "Test driven development (TDD) is a technique that developers use to develop\nsoftware. With it comes expectations such as; executable documentation, loosely\ncoupled components and a safety net for refactoring. Many presentations have\nbeen made about TDD, but here Sebastian will show you in a live demonstration.\nAfter a short introduction to TDD, we will construct a todo list, followed by\niteratively developing and refactoring code. If not for TDD, you can attend this\nsession just to get inspired by its fast development pace and how to leverage your IDE.",
+      "Duration": 60,
+      "Title": "Live test driven development",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["Test", "Way of Work"],
+      "Speakers": [
+        {
+          "id": 49,
+          "Talk_TalkId": "2161cc9a-919f-46ea-8139-8838bf5a927e",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Sydost AB",
+            "Description": "Sebastian has been an IT consultant for more than 10 years, conference speaker\nsince 2013, certified TDD (test driven development) trainer for iSQi since 2014,\npart time consultant leader for developers since 2016. He has certified and\neducated developers in techniques such as TDD, refactoring, software\ncraftsmanship and software design for many years. Most importantly, Sebastian is\na passionate developer who cares deeply about code and how to improve.",
+            "SpeakerId": "ba85ed4b-0583-449b-b70f-b779e82707a2",
+            "SpeakerName": "Sebastian Larsson"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T15:10:00",
+    "Talk": {
+      "TalkId": "f68a933f-86d7-4fee-b54e-a300ac50ea39",
+      "sort": null,
+      "date_created": "2022-10-27T08:33:33.399Z",
+      "date_updated": "2023-01-23T11:32:27.204Z",
+      "Description": "AWS goal is that all workloads in the cloud should be well-architected. As an AWS Well-Architected partner, everything we do with customers should be well-architected. In this session we'll talk about the 6 pillars in the framework and how they help guide teams and organizations in how to improve both their workloads and their ways of working. \n\nThis talk is inspired by the great talk Firoz held at KDS 21 on Azure Well Architected reviews.",
+      "Duration": 60,
+      "Title": "AWS Well-Architected Framework Review",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["AWS", "Cloud"],
+      "Speakers": [
+        {
+          "id": 56,
+          "Talk_TalkId": "f68a933f-86d7-4fee-b54e-a300ac50ea39",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud Partnerships Oy",
+            "Description": "Jonas loves SAAB cars and works as a Senior Cloud Advisor @ Knowit Cloud Partnerships in Finland.",
+            "SpeakerId": "2ee34ff6-1c23-48fc-9f41-25f0aabbaeda",
+            "SpeakerName": "Jonas Dahlblom"
+          }
+        },
+        {
+          "id": 83,
+          "Talk_TalkId": "f68a933f-86d7-4fee-b54e-a300ac50ea39",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud Partnerships Oy",
+            "Description": "Senior Cloud Arvisor at Knowit Cloud Partnerships. Also AWS Community Builder and a Well-Architected Lead. I am a passionate expert of the Cloud, with a background in old style datacenters before going all-in on cloud 5,5 years ago – with over 23 years of work experience",
+            "SpeakerId": "0ae6e140-7233-4fad-b6c7-f1d9c9e35319",
+            "SpeakerName": "Niklas Westerstråhle"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T09:00:00",
+    "Talk": {
+      "TalkId": "d462a370-6f84-4590-9555-1ac7dfc2c1a9",
+      "sort": null,
+      "date_created": "2022-10-27T07:06:19.692Z",
+      "date_updated": "2022-10-28T08:04:08.017Z",
+      "Description": "Tailwind CSS has become quite popular in the web community over the last couple of years, and has gathered some strong opinions both for and against. Join me as I walk through the strengths and weaknesses of this modern utility-first CSS framework as well as some short examples on some best practices.",
+      "Duration": 30,
+      "Title": "Increase your productivity with Tailwind CSS",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Frontend"],
+      "Speakers": [
+        {
+          "id": 34,
+          "Talk_TalkId": "d462a370-6f84-4590-9555-1ac7dfc2c1a9",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Aarhus",
+            "Description": "Senior Frontend Developer at Knowit Experience",
+            "SpeakerId": "1fe1cad7-e8bf-4c9d-aa81-7de5d11ea14e",
+            "SpeakerName": "Kevin Andries Bach"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:40:00",
+    "Talk": {
+      "TalkId": "9d1a3151-7600-4634-82e9-79227fe11db8",
+      "sort": null,
+      "date_created": "2022-11-15T10:03:56.658Z",
+      "date_updated": null,
+      "Description": "We will dig into what DevOps is not, and what some of the anti patterns that might emerge in our tech industry today. We will also dig into what some of the effect of the anti patterns are.",
+      "Duration": 30,
+      "Title": "What DevOps is not",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["cloud", "devops", "culture"],
+      "Speakers": [
+        {
+          "id": 72,
+          "Talk_TalkId": "9d1a3151-7600-4634-82e9-79227fe11db8",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Connectivity AB",
+            "Description": "Works as an Innovation Zone lead in Knowit Connectivity.",
+            "SpeakerId": "80698d56-1135-428c-8d93-d3eee1fb5c2e",
+            "SpeakerName": "Marcus Karlsson"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 5: Kong Fredriks Hotel"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T17:10:00",
+    "Talk": {
+      "TalkId": "d4a56ad7-8d28-4b46-8003-0f134746d0e0",
+      "sort": null,
+      "date_created": "2022-10-27T07:24:29.248Z",
+      "date_updated": "2022-10-28T08:16:34.153Z",
+      "Description": "In 10 minutes, I will talk about what WEB3 is, what we expect to see in it, how things change with it, what kind of problems it will solve and how we can be a part of it.",
+      "Duration": 10,
+      "Title": "What is WEB3",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Frontend"],
+      "Speakers": [
+        {
+          "id": 41,
+          "Talk_TalkId": "d4a56ad7-8d28-4b46-8003-0f134746d0e0",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud & Architecture AB",
+            "Description": "Meraj is an experienced consultant with a strong interest in cloud technology and solution architecture.\nHe is curious about technology trends specially in blockchain and decentralized applications.",
+            "SpeakerId": "3a3c7d68-0689-4f9a-87a2-cf2c02008490",
+            "SpeakerName": "Meraj Mehrabi"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:00:00",
+    "Talk": {
+      "TalkId": "626c8038-7790-40ff-873e-941e7e087d50",
+      "sort": null,
+      "date_created": "2022-10-27T07:31:48.229Z",
+      "date_updated": "2022-10-28T08:19:35.866Z",
+      "Description": "Everyone is talkong about how digital is going to help us create a sustainable world, but what inpact does out work have on our planet. A doomsday dive into the world of E waste and digital pollution",
+      "Duration": 30,
+      "Title": "Sustainability in a digital age",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Sustainability"],
+      "Speakers": [
+        {
+          "id": 44,
+          "Talk_TalkId": "626c8038-7790-40ff-873e-941e7e087d50",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Copenhagen",
+            "Description": "Frontend-developer with years of experience in polluting the net",
+            "SpeakerId": "ec93a7f7-dcdb-4404-83f1-e45f2bbbdd0f",
+            "SpeakerName": "Peter Solow"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T15:10:00",
+    "Talk": {
+      "TalkId": "d2242fd2-d892-40fa-be28-4406d61fcd29",
+      "sort": null,
+      "date_created": "2022-11-15T09:42:07.272Z",
+      "date_updated": "2023-02-03T14:11:46.419Z",
+      "Description": "cancelled How to standardizing development, deployments and application design by utilizing Red Hat Openshift Container Platform.\n\nA practical presentation on how to enable developers and operations alike, with lots of examples and demos.\n\nNo matter if you are just getting started with containers or already running a microservice architecture, this is an introduction to Openshift, Gitops, Source-to-Image and much, much more.",
+      "Duration": 60,
+      "Title": "[Cancelled] Standardizing development with Openshift",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["linux", "containers", "openshift", "redhat", "opensource"],
+      "Speakers": [
+        {
+          "id": 69,
+          "Talk_TalkId": "d2242fd2-d892-40fa-be28-4406d61fcd29",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit - Miracle A/S",
+            "Description": "Linux Infrastructure Architect, with 15+ years of experience with Opensource environments and applications.",
+            "SpeakerId": "8dc2f0fe-de7a-44ba-83f4-5aca15ee3662",
+            "SpeakerName": "Martin Juhl Prendergast"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 5: Kong Fredriks Hotel"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:40:00",
+    "Talk": {
+      "TalkId": "6a7ca966-4b4b-43ef-85ed-88d3c9b3cf8e",
+      "sort": null,
+      "date_created": "2022-10-27T08:22:15.681Z",
+      "date_updated": "2022-10-28T08:24:07.843Z",
+      "Description": "The stereotypical geek as someone who is hacking away alone in a basement is outdated. On the contrary, as a developer it is important to have social skills and good collaboration skills because most developers work in teams. An essential part of work is to look at, understand, improve and together learn from each other's code. A common form of this is code review, where developers review code written by their colleagues. That feedback from code reviews is received often and continuous is essential in making it “work”.\nI have worked in teams where code reviews become optional (in a good way), because we have such a large emphasis on collaboration. Feedback is received earlier and it is much easier and less of an obstacle to act on it. With it also comes less risk for the project and more freedom for the teams members. Sounds good right? How do we achieve it?\n\"",
+      "Duration": 10,
+      "Title": "Smart collaboration",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Collaboration"],
+      "Speakers": [
+        {
+          "id": 48,
+          "Talk_TalkId": "6a7ca966-4b4b-43ef-85ed-88d3c9b3cf8e",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Sydost AB",
+            "Description": "Sebastian has been an IT consultant for more than 10 years, conference speaker\nsince 2013, certified TDD (test driven development) trainer for iSQi since 2014,\npart time consultant leader for developers since 2016. He has certified and\neducated developers in techniques such as TDD, refactoring, software\ncraftsmanship and software design for many years. Most importantly, Sebastian is\na passionate developer who cares deeply about code and how to improve.",
+            "SpeakerId": "ba85ed4b-0583-449b-b70f-b779e82707a2",
+            "SpeakerName": "Sebastian Larsson"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T10:30:00",
+    "Talk": {
+      "TalkId": "721b5311-e73a-43e2-921c-b2bb3d6c7fa1",
+      "sort": null,
+      "date_created": "2022-10-26T13:06:24.702Z",
+      "date_updated": "2022-10-28T07:18:18.122Z",
+      "Description": "Help your design team understand your struggles by engaging in theirs. This talk will be making an argument for why a developer should learn Figma, and how it can be used to improve collaboration with your design team.",
+      "Duration": 10,
+      "Title": "Empathy through engagement with Figma",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Design", "Collaboration"],
+      "Speakers": [
+        {
+          "id": 14,
+          "Talk_TalkId": "721b5311-e73a-43e2-921c-b2bb3d6c7fa1",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "With more than a decade of app development experience Andreas has a passion for making the collaboration between developers and designers a two way street.",
+            "SpeakerId": "af177c8f-0872-4534-bb18-73b79b2f60a6",
+            "SpeakerName": "Andreas Petrov"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T09:40:00",
+    "Talk": {
+      "TalkId": "03b396d0-df3a-4337-afba-041a51f0cd2c",
+      "sort": null,
+      "date_created": "2022-11-15T10:48:07.443Z",
+      "date_updated": null,
+      "Description": "We've installed Anthos Distributed Cloud - Virtual (Anthos) at the Norwegian Mapping Services, and want to tell you all about it. \nFocus areas: \n- Why hybrid cloud?\n- Experiences training product teams with no cloud experience to use GitHub and Google Cloud Console\n- Anthos Service Mesh and Istio - a source of frustration and also YAML\n- Customer experience\n- Developer experience\n- What we would do differently",
+      "Duration": 30,
+      "Title": "Google Distributed Cloud - A Springboard to the Cloud!",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["cloud", "hybrid cloud", "google", "anthos"],
+      "Speakers": [
+        {
+          "id": 74,
+          "Talk_TalkId": "03b396d0-df3a-4337-afba-041a51f0cd2c",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "Head of Competency for Cloud at Knowit Objectnet, previously Cloud Architect for the SKIP application platform at Norwegian Mapping Authority.",
+            "SpeakerId": "b0b60cd2-2bed-4b49-8aac-011dc92eca42",
+            "SpeakerName": "Tom Fagerland"
+          }
+        },
+        {
+          "id": 75,
+          "Talk_TalkId": "03b396d0-df3a-4337-afba-041a51f0cd2c",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "Member, SKIP application platform team at Norwegian Mapping Authority, Leader of Cloud Guild for Knowit Objectnet",
+            "SpeakerId": "7f82767a-f8ef-4a90-9b34-81531bdca120",
+            "SpeakerName": "Even Kronen Johansen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:40:00",
+    "Talk": {
+      "TalkId": "a81ae0bd-bfe2-4c00-a570-b72747a268c4",
+      "sort": null,
+      "date_created": "2022-10-26T13:10:59.358Z",
+      "date_updated": "2022-10-28T07:26:37.793Z",
+      "Description": "SaaS banking is an emerging trend that is about to hit the Nordics, offering reduced cost, improved quality and faster time to market. \n\nKnowit Reaktor Solutions is offering such solutions using our product Dploy in close cooperation with partners like Mambu. \n\nThis talk discusses how such a solution is created and delivered in terms of architecture, organization and commercials at a business level.",
+      "Duration": 30,
+      "Title": "Building a SaaS bank in the Nordics",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Cloud"],
+      "Speakers": [
+        {
+          "id": 17,
+          "Talk_TalkId": "a81ae0bd-bfe2-4c00-a570-b72747a268c4",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Reaktor Solutions",
+            "Description": "Espen Vindegg is an MsC with a long track record digitizing business, banking and industry as a manager and consultant. He is the partner manager in KRS, working on full stack SaaS banking solutions.",
+            "SpeakerId": "cdaf25b4-092f-4e04-8bf0-7614427dc361",
+            "SpeakerName": "Espen Vindegg"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:00:00",
+    "Talk": {
+      "TalkId": "e9d7b1e0-98d7-49bc-9b0c-f12555c55a5a",
+      "sort": null,
+      "date_created": "2022-10-27T06:52:36.414Z",
+      "date_updated": "2022-10-28T08:00:33.716Z",
+      "Description": "You can become a tester through multiple ways: e.g. with computer science background from university, through being a domain expert in some business, through additional testing studies at a re-education program, or just starting to test and learning by doing. There are many ways, as there are also many skills needed in testing. No-one has all those skills to start with, regardless of the background. \n\nBut can you somehow develop all those skills, or many of those skills? Can you become a multitalented tester / developer? Yes, you can. By understanding the combination of needed skills for different testing tasks, you can develop your own personal career path to become a true multitalent. Not only test automation, not only usability testing, not only being a scrum master, but, for example, a combination of all of them. \n\nThe presentation will outline typical backgrounds for testers, different skills, different learning routes, and different typical combinations of multitalents. Kari will also briefly share his route to becoming the Tester of the Year 2021 after a 25-year journey, his own multitalentedness. It is then up to you to see which one is for you, or do you want to become your own, unique testing multitalent?",
+      "Duration": 60,
+      "Title": "How to develop into a multitalented tester?",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["Test"],
+      "Speakers": [
+        {
+          "id": 31,
+          "Talk_TalkId": "e9d7b1e0-98d7-49bc-9b0c-f12555c55a5a",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Solutions Oy",
+            "Description": "Mr. Kari Kakkonen is the 2021 EuroSTAR Testing Excellence Award winner and Tester of the Year in Finland Award 2021 winner. He is the author and CEO of Dragons Out Oy, creating a fantasy book to teach software testing to children. Kari Kakkonen is working in Finland at Knowit. He has M.Sc. in from Aalto University (aalto.fi). He works mostly with agile testing, lean, test automation, DevOps and AI. \nKari was on Executive of ISTQB (istqb.org) 2015-2021. He is on Board of Directors of TMMi. He is Treasurer of FiSTB (fistb.fi). \nKari is a singer, snowboarder, kayaker, husband and dad.\nhttps://www.linkedin.com/in/karikakkonen/\nhttps://twitter.com/kkakkonen",
+            "SpeakerId": "77e707c6-969b-4846-806a-147e71b367c1",
+            "SpeakerName": "Kari Kakkonen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:00:00",
+    "Talk": {
+      "TalkId": "6cd3227f-d454-4ebb-9364-c21439432ef2",
+      "sort": null,
+      "date_created": "2022-10-27T07:12:28.151Z",
+      "date_updated": "2022-10-28T08:04:58.328Z",
+      "Description": "CAPTCHAs are regularly used to protect websites from malicious bot traffic by presenting a challenge that should be solvable by humans, but not by bots. But with the emergence of more advanced AI, CAPTCHA schemes must increase their difficulty - usually at the cost of accessibility.\n\nIn this introductory talk I present some of the main accessibility challenges with today's CAPTCHAs, and discuss whether or not it is possible to create a CAPTCHA scheme that is universally accessible to all humans.",
+      "Duration": 30,
+      "Title": "The inaccessibility of CAPTCHA",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Universal Design", "Frontend"],
+      "Speakers": [
+        {
+          "id": 35,
+          "Talk_TalkId": "6cd3227f-d454-4ebb-9364-c21439432ef2",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "Levi is a fullstack developer with a master's degree in computer science from NTNU. His volunteer work for Garmeres - a queer Sámi organisation - regularly introduces him to technical challenges where the goal is to be inclusive of minorities that are often overlooked.",
+            "SpeakerId": "a866a7ed-b9f6-47c6-aeee-e87b2054535e",
+            "SpeakerName": "Levi Sørum"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T15:10:00",
+    "Talk": {
+      "TalkId": "b61a5dd0-30d3-4d7e-a119-dfdc88018018",
+      "sort": null,
+      "date_created": "2022-10-26T12:58:25.385Z",
+      "date_updated": "2022-11-15T11:39:48.402Z",
+      "Description": "Open Source projects are more and more often victims of their own success. Those responsible for the packages end up spending thousands of hours a year maintaining and supporting packages that have somehow gotten into the global infrastructure we use to build our products and services.\n\nThis is done absolutely free, and usually only with outrage as the open source world's salary. It is not sustainable. Not in the long run.\n\nThis is a massive challenge, across both companies and national borders. We as developers are definitely in a position where we can contribute, but what is really the right way to do it? How can we ensure the Open Source culture with contributions? How can we make it sustainable? These are questions I will try to answer!",
+      "Duration": 30,
+      "Title": "What can we do to make Open Source more sustainable?",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["Sustainability", "Open Source"],
+      "Speakers": [
+        {
+          "id": 10,
+          "Talk_TalkId": "b61a5dd0-30d3-4d7e-a119-dfdc88018018",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "Alexander is a creative frontender, specializing in UX, accessibility, universal design, frontend-architecture, node and design systems. He is passionate with open source projects and love to dabble with new emerging technologies related to frontend. With over 24 years of frontend experience, he has earned the right to be called a veteran. He is a lover of life, technologist at heart. If he isn't coding, he cooks and love whisky and cigars. Oh, and coffee, he LOVES coffee!",
+            "SpeakerId": "eff8e2ed-b845-44d4-9d44-e10c7b44a594",
+            "SpeakerName": "Alexander Vassbotn Røyne-Helgesen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:00:00",
+    "Talk": {
+      "TalkId": "fe2c0ec8-9f5d-41d9-ab40-a29baf4a4897",
+      "sort": null,
+      "date_created": "2022-11-15T09:46:27.163Z",
+      "date_updated": null,
+      "Description": "Sounds counter-intuitive, doesn't it?",
+      "Duration": 30,
+      "Title": "Drawing inspiration from unexpected places: how NOT programming can make you a better programmer",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": [
+        "creativity",
+        "programming",
+        "best practices",
+        "python",
+        "javascript",
+        "music making",
+        "chess"
+      ],
+      "Speakers": [
+        {
+          "id": 70,
+          "Talk_TalkId": "fe2c0ec8-9f5d-41d9-ab40-a29baf4a4897",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Poland Sp. z o.o.",
+            "Description": "Long-time developer of all things Python, and a slightly rusty developer of all things full-stack in other languages. Trainer, amateur musician, father of two. Possibly a wizard.",
+            "SpeakerId": "14eca241-b179-4f0c-a03e-15aa43d749ca",
+            "SpeakerName": "Michał Woźniczak"
+          }
+        },
+        {
+          "id": 71,
+          "Talk_TalkId": "fe2c0ec8-9f5d-41d9-ab40-a29baf4a4897",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Poland Sp. z o.o.",
+            "Description": "Long-time developer of all things Python, and a slightly rusty developer of all things full-stack in other languages. Trainer, amateur musician, father of two. Possibly a wizard.",
+            "SpeakerId": "14eca241-b179-4f0c-a03e-15aa43d749ca",
+            "SpeakerName": "Michał Woźniczak"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 5: Kong Fredriks Hotel"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T14:20:00",
+    "Talk": {
+      "TalkId": "c2899f66-c37d-4600-ac15-89faa8b779c9",
+      "sort": null,
+      "date_created": "2022-10-27T08:27:58.226Z",
+      "date_updated": "2022-10-28T08:27:42.191Z",
+      "Description": "What is the new normal and where do I fit in?\nHow does Agile and Scrum guide us towards ideal working conditions for developers?\nYou are a talent, not a resource.\nChange yourself and you change the world.",
+      "Duration": 30,
+      "Title": "Being an Agile Devloper in a Post-Covid world",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Collaboration", "Way of Work"],
+      "Speakers": [
+        {
+          "id": 52,
+          "Talk_TalkId": "c2899f66-c37d-4600-ac15-89faa8b779c9",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Solutions Danmark",
+            "Description": "Agile Coach with 20+ years experience working in the US, for companies such as Disney and the NFL.",
+            "SpeakerId": "1dfdaf88-5cc2-4186-9653-0a3eb43be230",
+            "SpeakerName": "Thomas Knudsen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T10:20:00",
+    "Talk": {
+      "TalkId": "fb464d11-babb-47e9-a405-4cc28e6d493f",
+      "sort": null,
+      "date_created": "2022-10-27T07:02:31.523Z",
+      "date_updated": "2022-10-28T08:01:18.917Z",
+      "Description": "Sometimes it's not your fault. Sometimes it's Googles fault. How a font-color in a slider turned in to a bug in Chromiums anti-aliasing algorithm.",
+      "Duration": 10,
+      "Title": "An Edge Case",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Frontend"],
+      "Speakers": [
+        {
+          "id": 32,
+          "Talk_TalkId": "fb464d11-babb-47e9-a405-4cc28e6d493f",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Copenhagen",
+            "Description": "Fullstack developer and nitpicker at Knowit Experience Copenhagen.",
+            "SpeakerId": "29fa91d1-5d5d-4392-aeec-2704bb453d87",
+            "SpeakerName": "Kaspar Boel Kjeldsen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T16:30:00",
+    "Talk": {
+      "TalkId": "aca64926-68c9-4a94-aa48-ed47dea0e3ab",
+      "sort": null,
+      "date_created": "2022-10-27T07:23:01.230Z",
+      "date_updated": "2022-10-28T08:15:17.137Z",
+      "Description": "An introduction to localstack showing how to accelerate your local development loops for AWS cloud applications. \nThe presentation will shortly present localstack, shows how to set it up and how it integrates seamlessly in your CI environment with examples in terraform and AWS CDK (typescript/python).",
+      "Duration": 30,
+      "Title": "Localstack: develop AWS cloud apps locally",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["AWS", "Cloud", "Devops", "Fullstack"],
+      "Speakers": [
+        {
+          "id": 40,
+          "Talk_TalkId": "aca64926-68c9-4a94-aa48-ed47dea0e3ab",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Solutions Oy",
+            "Description": "Mathias joined Knowit group in September 2022 as a Cloud Consultant. Before he worked as backend developer for a biomedical data application turning the data into valuable insights and knowledge. He influenced the architecture of the application and and the development process from a restricted EC2-based architecture to a container based architecture in order to scale better with the amount of data processed by the application leveraging his certified skills on AWS.\nHe continuously strives for improving the development experience by integrating useful tools aiming to simplify the development cycles.",
+            "SpeakerId": "05f15a4b-ae3a-49f2-b997-1db6478d1e98",
+            "SpeakerName": "Mathias Kron"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:50:00",
+    "Talk": {
+      "TalkId": "bcaa30cc-f879-4029-b79d-58518b7dcd18",
+      "sort": null,
+      "date_created": "2022-10-26T13:13:47.324Z",
+      "date_updated": "2022-10-28T07:31:58.210Z",
+      "Description": "Talking about why the DRY programming principle can be misused and what you should know when using it",
+      "Duration": 10,
+      "Title": "Why DRY can be a gateway drug to unnecessary complexity",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Code Quality"],
+      "Speakers": [
+        {
+          "id": 19,
+          "Talk_TalkId": "bcaa30cc-f879-4029-b79d-58518b7dcd18",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Copenhagen",
+            "Description": "Fullstack Dev with a big passion for frontend and all it quirks",
+            "SpeakerId": "75e5730e-bff1-471f-b3b2-ac3bfe3afdda",
+            "SpeakerName": "Frederick Ørting Pedersen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T17:20:00",
+    "Talk": {
+      "TalkId": "581d291f-a896-49a0-b800-39f2394bb42e",
+      "sort": null,
+      "date_created": "2022-10-26T13:03:16.915Z",
+      "date_updated": "2022-10-28T07:17:35.424Z",
+      "Description": "A circular economy is an economy that uses and reuses resources more efficiently.\nIf you’re like me, that probably makes you think of mass production and waste management.\n\nWhat would circular principles for software development look like? Which resources do we and the systems we make consume, and how can we use and reuse these resources in more efficient ways?\n\nThis lightning talk will give you a broader perspective on how what we build can affect the world around us for better or worse, and how we build more the things that make things better.",
+      "Duration": 10,
+      "Title": "Circular principles for software development",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Sustainability"],
+      "Speakers": [
+        {
+          "id": 13,
+          "Talk_TalkId": "581d291f-a896-49a0-b800-39f2394bb42e",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Bergen AS",
+            "Description": "André is an experienced technology leader and software developer who is concerned about how software development can make a difference in creating a more sustainable society.",
+            "SpeakerId": "7e32230b-8ede-444e-a347-4b17753a237e",
+            "SpeakerName": "André Heie Vik"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T10:20:00",
+    "Talk": {
+      "TalkId": "1976b36c-5f29-4408-b89c-3cede915a222",
+      "sort": null,
+      "date_created": "2022-10-27T08:26:11.329Z",
+      "date_updated": "2022-10-28T08:26:59.847Z",
+      "Description": "Short introduction to how we use Figma as a connecting hub in small to large projects to ensure participation and smooth project management from/for all team members.",
+      "Duration": 10,
+      "Title": "Figma as a connecting tool",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Design", "Collaboration"],
+      "Speakers": [
+        {
+          "id": 51,
+          "Talk_TalkId": "1976b36c-5f29-4408-b89c-3cede915a222",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Oslo AS",
+            "Description": "Thale is a senior advisor and project manager with more than 15 years of experience. She steadily handles project management of everything from identity projects to digital development. She is particularly motivated by working for clients with an important social mission, and leads her projects with great enthusiasm, creativity and an infectious mood.",
+            "SpeakerId": "a1f154dd-d9fd-42a4-95ff-6162fff9f918",
+            "SpeakerName": "Thale Håmo"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T14:20:00",
+    "Talk": {
+      "TalkId": "7e2e3e01-b1a6-4b66-8588-ec2846b1b464",
+      "sort": null,
+      "date_created": "2022-11-15T10:44:03.729Z",
+      "date_updated": null,
+      "Description": "Detailed description of kubernetes architecture and how can we achieve sustainability using container orchestration and management tools.",
+      "Duration": 30,
+      "Title": "Kubernetes and Sustainability",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["kubernetes", "cloud", "sustainability"],
+      "Speakers": [
+        {
+          "id": 73,
+          "Talk_TalkId": "7e2e3e01-b1a6-4b66-8588-ec2846b1b464",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Connectivity AB",
+            "Description": "I have 6+ years of experience in Cloud and DevOps. I like to explore new technologies.",
+            "SpeakerId": "63d387fd-b966-45e1-9a59-b29e5d3a1447",
+            "SpeakerName": "Akansha Jain"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 5: Kong Fredriks Hotel"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:00:00",
+    "Talk": {
+      "TalkId": "28901903-8dd0-403b-8197-7b8d32ab3899",
+      "sort": null,
+      "date_created": "2022-10-27T07:35:06.477Z",
+      "date_updated": "2022-11-30T11:09:46.119Z",
+      "Description": "After almost 10 years of Java, I felt that my interest and passion was starting to fade away a bit, not due to the language itself but I felt that I was spending more time with other things than producing code. \n\nIn the spring of 2021, I changed project at my customer and was introduced to Quarkus, a framework focused on building microservices in Java, focused on Kubernetes/Openshift. One of the main focuses of Quarkus is the developer joy and to make the life easier for the developers. Little did I know that Quarkus would reignite my passion for Java and I will show how Quarkus changed my life with some live programming.",
+      "Duration": 30,
+      "Title": "How Quarkus reignited my passion for Java",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Java", "Backend"],
+      "Speakers": [
+        {
+          "id": 46,
+          "Talk_TalkId": "28901903-8dd0-403b-8197-7b8d32ab3899",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Norrland AB",
+            "Description": "Richard is a developer from Luleå, up in the north of Sweden and he has been developing in Java for almost 10years. The last 1,5 years he has been spending changing his mindset from monoliths to microservices and everything around that transition.",
+            "SpeakerId": "0c7e432d-e058-44be-899e-9603d4ab06b0",
+            "SpeakerName": "Richard Alm"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T17:30:00",
+    "Talk": {
+      "TalkId": "fecf44a1-77a4-4429-bd7b-1155876bbecd",
+      "sort": null,
+      "date_created": "2022-10-26T13:15:49.000Z",
+      "date_updated": "2022-10-28T07:40:43.786Z",
+      "Description": "A lot of people find estimation demotivating. Having experienced that \"a small task\" suddenly turning into a huge mountain to climb, I must say I am one of them. In my experience estimation can lead to frustration for customers, project managers, product owners and most of all, the person doing the task of estimating. In this talk I will try to answer two questions; is it possible to make good estimates, and what consequences can estimates gone wrong have on people and the products they make?",
+      "Duration": 10,
+      "Title": "Estimation is impossible",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Way of Work"],
+      "Speakers": [
+        {
+          "id": 21,
+          "Talk_TalkId": "fecf44a1-77a4-4429-bd7b-1155876bbecd",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Bergen AS",
+            "Description": "Full-stack developer at Knowit Experience Bergen. Estimates that he has made several hundred estimates, some of which have been accurate.",
+            "SpeakerId": "620160ca-2e2c-46c8-b8cf-290ae00d3855",
+            "SpeakerName": "Gard Lundh"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T16:30:00",
+    "Talk": {
+      "TalkId": "ba867218-b7b9-4aa9-906c-dedd54d42b9d",
+      "sort": null,
+      "date_created": "2022-10-26T13:09:59.608Z",
+      "date_updated": "2023-01-30T08:05:38.308Z",
+      "Description": "In Knowit Objectnet we challenged each of our AI-enthusiasts to create a program that plays UNO. This presentation will talk about what we learned during this challenge and the different strategies our enthusiasts employed against each other",
+      "Duration": 30,
+      "Title": "Playing UNO using Reinforcement Learning",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Machine Learning"],
+      "Speakers": [
+        {
+          "id": 16,
+          "Talk_TalkId": "ba867218-b7b9-4aa9-906c-dedd54d42b9d",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "Erik is the leader of the AI-chapter in Knowit Objectnet",
+            "SpeakerId": "da59b3c0-8ec6-42e5-b243-a7bed6b15c40",
+            "SpeakerName": "Erik Dymbe"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T10:30:00",
+    "Talk": {
+      "TalkId": "e0ae635d-79c6-4321-89e7-5dbbee095bdc",
+      "sort": null,
+      "date_created": "2022-10-26T13:14:31.950Z",
+      "date_updated": "2022-10-28T07:33:00.409Z",
+      "Description": "JavaScript: Minimize your dependencies and things to think of.",
+      "Duration": 10,
+      "Title": "How to survive the node_modules hell",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Frontend"],
+      "Speakers": [
+        {
+          "id": 20,
+          "Talk_TalkId": "e0ae635d-79c6-4321-89e7-5dbbee095bdc",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Copenhagen",
+            "Description": "Fullstack Dev with a big passion for frontend and all it quirks",
+            "SpeakerId": "75e5730e-bff1-471f-b3b2-ac3bfe3afdda",
+            "SpeakerName": "Frederick Ørting Pedersen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T17:10:00",
+    "Talk": {
+      "TalkId": "11c12ca2-8f91-4211-9fbc-f8dd70074c3d",
+      "sort": null,
+      "date_created": "2022-10-27T08:29:42.370Z",
+      "date_updated": "2022-10-28T08:28:32.342Z",
+      "Description": "Small/big project UAT learnings handling",
+      "Duration": 10,
+      "Title": "UAT learnings over time",
+      "Language": "danish",
+      "Difficulty": "intermediate",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Test"],
+      "Speakers": [
+        {
+          "id": 53,
+          "Talk_TalkId": "11c12ca2-8f91-4211-9fbc-f8dd70074c3d",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Copenhagen",
+            "Description": "Client Lead",
+            "SpeakerId": "e47128be-88eb-4fb0-a618-359d52722d05",
+            "SpeakerName": "Thomas Hagbard Johansen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T14:20:00",
+    "Talk": {
+      "TalkId": "c7f30ee2-5abb-44dd-808f-07f7aec2b24b",
+      "sort": null,
+      "date_created": "2022-10-26T13:16:45.042Z",
+      "date_updated": "2023-02-02T12:43:01.676Z",
+      "Description": "Cancelled\nWhat's newly presented at re:invent 2022 and how does it map into the Nordics?",
+      "Duration": 30,
+      "Title": "[cancelled] What's new at re:Invent?",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["AWS", "Cloud"],
+      "Speakers": [
+        {
+          "id": 22,
+          "Talk_TalkId": "c7f30ee2-5abb-44dd-808f-07f7aec2b24b",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud & Architecture AB",
+            "Description": "AWS Champion",
+            "SpeakerId": "666478d3-d76f-4d79-9a8d-93e55a8e7e89",
+            "SpeakerName": "George André"
+          }
+        },
+        {
+          "id": 65,
+          "Talk_TalkId": "c7f30ee2-5abb-44dd-808f-07f7aec2b24b",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud & Architecture AB",
+            "Description": "TBA",
+            "SpeakerId": "8de96c68-6927-46d3-a906-a8ddf652676d",
+            "SpeakerName": "Shaho Sadeghi"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:40:00",
+    "Talk": {
+      "TalkId": "d77c8792-8347-4bcd-9247-29de74044d77",
+      "sort": null,
+      "date_created": "2022-10-27T07:37:00.604Z",
+      "date_updated": "2022-12-20T12:07:59.165Z",
+      "Description": "When developing a workload in the cloud, you can use data and informed decisions to steer, guide and optimize the sustainability impact of the application. This talk will guide you through methodologies, tools and data which you can use to understand, optimize and transform the developed customer application based on facts, science and proven practice.\n\nMethods and tools are applicable to all largest public clouds: AWS, Azure and GCP. We will also discuss the sustainable cloud practice that has been built in KCP and how we are currently helping some of our customers with that packaged offering available for all Knowit companies to take advantage of.",
+      "Duration": 30,
+      "Title": "Sustainable Cloud in Practice",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["Cloud", "Sustainability"],
+      "Speakers": [
+        {
+          "id": 47,
+          "Talk_TalkId": "d77c8792-8347-4bcd-9247-29de74044d77",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud Partnerships Oy",
+            "Description": "Vice President of Technology at Knowit Cloud Partnerships. Also AWS Hero & AWS Ambassador and a Well-Architected Lead.\n\nI am a passionate expert of the Cloud. I like to keep myself educated and keep moving forward, rather than doing the same things over and again. I am always looking for ways to enhance our own and our customers performance with all the tools that the world has to offer.\n\nEvangelizes and advices enterprise customers in cloud, strategy, business and sustainability.",
+            "SpeakerId": "3c8bef5e-c907-429d-82ee-3161c58ffb29",
+            "SpeakerName": "Rolf Koski"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:40:00",
+    "Talk": {
+      "TalkId": "95263f7d-c725-4156-a032-9c5beaec5dd6",
+      "sort": null,
+      "date_created": "2022-10-26T13:07:28.110Z",
+      "date_updated": "2022-10-28T07:19:49.168Z",
+      "Description": "A demo how we can build a small application with Github Copilot. We describe want we want i plain English and Copilots writes the codes.",
+      "Duration": 10,
+      "Title": "Let AI write your code",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["AI", "Fullstack"],
+      "Speakers": [
+        {
+          "id": 15,
+          "Talk_TalkId": "95263f7d-c725-4156-a032-9c5beaec5dd6",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Copenhagen",
+            "Description": "Solutions Architect at Knowit Experience CPH, likes language processing with AI.",
+            "SpeakerId": "5693164b-cf44-408b-835b-e62ae512a1a0",
+            "SpeakerName": "Anton Stonor"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T11:40:00",
+    "Talk": {
+      "TalkId": "a140ad8a-46d9-4ec4-a37e-bad556b6c40e",
+      "sort": null,
+      "date_created": "2022-10-27T07:28:39.532Z",
+      "date_updated": "2022-10-28T08:18:44.779Z",
+      "Description": "Making a website really fast is one thing, but how do you keep it fast? \n\nI will take you through how performance monitoring, performance budgets, custom metrics and more can help with this.",
+      "Duration": 30,
+      "Title": "How to make a fast website stay fast",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Frontend"],
+      "Speakers": [
+        {
+          "id": 43,
+          "Talk_TalkId": "a140ad8a-46d9-4ec4-a37e-bad556b6c40e",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Aarhus",
+            "Description": "Lead Frontend Developer & Team Lead @ Knowit Experience, Aarhus, DK. \n15+ years of combined experience as backend, fullstack and frontend developer.",
+            "SpeakerId": "d90c3b56-fd1e-4972-8394-8d1f45b62ee3",
+            "SpeakerName": "Mikkel Rom Engholm"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T15:10:00",
+    "Talk": {
+      "TalkId": "f27c725d-498c-4b0a-8b60-d24143c23812",
+      "sort": null,
+      "date_created": "2022-10-27T08:42:58.714Z",
+      "date_updated": "2022-10-28T08:35:19.546Z",
+      "Description": "So, your customer wants to migrate their old .NET Framework web app to .NET Core/6. Where do you even start? What tools, methods and patterns are available?",
+      "Duration": 60,
+      "Title": "The .NET Migration Journey",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["Backend", ".Net"],
+      "Speakers": [
+        {
+          "id": 63,
+          "Talk_TalkId": "f27c725d-498c-4b0a-8b60-d24143c23812",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Uppsala AB",
+            "Description": "Senior .NET full-stack developer also working with systems architecture and project management concerns. Likes the forest and a nice craft beer now and then.",
+            "SpeakerId": "d7bb7fde-0b7c-44a8-9b2d-c9b9bc0ebc25",
+            "SpeakerName": "Fabian Billner"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T10:20:00",
+    "Talk": {
+      "TalkId": "6ad8c894-e43b-48e2-9bd5-ce4c5721ae4c",
+      "sort": null,
+      "date_created": "2022-10-26T13:20:28.914Z",
+      "date_updated": "2022-10-28T07:47:56.027Z",
+      "Description": "Mainly imperative, yet multi paradigm languages are gradually adding more functional constructs to the language with each subsequent update. C# is an example of such a language, however there is still many functional constructs missing. \n\nWe tried to force C# into the functional paradigm using the language-ext package in a real world project. In this presentation we will discuss the upsides and downsides of such an approach.",
+      "Duration": 10,
+      "Title": "Forcing C# into the functional paradigm - A real world use case",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": [".Net", "Backend"],
+      "Speakers": [
+        {
+          "id": 24,
+          "Talk_TalkId": "6ad8c894-e43b-48e2-9bd5-ce4c5721ae4c",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Bergen AS",
+            "Description": "Hussam Yousif is a developer at Knowit Experience Bergen. He found a passion for compilers, programming languages and programming paradigms during his studies. \n\nCoding aside, Hussam is the local Arsenal Fanatic and has been extremely happy about Arsenals rise to prominence in the Arteta era. This sentence may age very poorly.",
+            "SpeakerId": "36377498-68db-47b4-be01-e8d8fc7de642",
+            "SpeakerName": "Hussam Yousif"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T16:30:00",
+    "Talk": {
+      "TalkId": "c20fe0f5-95e8-485e-89de-0cb5caed36a4",
+      "sort": null,
+      "date_created": "2022-10-26T12:51:11.183Z",
+      "date_updated": "2022-10-28T07:14:01.641Z",
+      "Description": "A lecture that deals with the common pitfalls, and how to get out of them, when communicating between developers and designers",
+      "Duration": 30,
+      "Title": "Design sketch and front-end implementation, where does it blow up?",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Frontend", "Design", "Collaboration"],
+      "Speakers": [
+        {
+          "id": 8,
+          "Talk_TalkId": "c20fe0f5-95e8-485e-89de-0cb5caed36a4",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "Alexander is a creative frontender, specializing in UX, accessibility, universal design, frontend-architecture, node and design systems. He is passionate with open source projects and love to dabble with new emerging technologies related to frontend. With over 24 years of frontend experience, he has earned the right to be called a veteran. He is a lover of life, technologist at heart. If he isn't coding, he cooks and love whisky and cigars. Oh, and coffee, he LOVES coffee!",
+            "SpeakerId": "eff8e2ed-b845-44d4-9d44-e10c7b44a594",
+            "SpeakerName": "Alexander Vassbotn Røyne-Helgesen"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T15:40:00",
+    "Talk": {
+      "TalkId": "f74c446a-4a63-43e8-867b-853a6e4536a0",
+      "sort": null,
+      "date_created": "2022-10-27T06:29:22.431Z",
+      "date_updated": "2022-10-28T07:55:47.010Z",
+      "Description": "Short answer, it's not about the code.\n\nIn this presentation we shift the focus towards you, and what you can do to become the best posible teammate for your team and your colleagues.",
+      "Duration": 30,
+      "Title": "Things I wish I'd known sooner",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Way of Work", "Collaboration"],
+      "Speakers": [
+        {
+          "id": 29,
+          "Talk_TalkId": "f74c446a-4a63-43e8-867b-853a6e4536a0",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Sydost AB",
+            "Description": "Working at at Knowit Sydost, Karlskrona (previously Cybercom) for around 4 years. A generalist who currently working as a frontend (Angular) and backend developer (Java) for a Swedish government agency.",
+            "SpeakerId": "2e04831c-4974-4e43-a07f-6ea18e4f07aa",
+            "SpeakerName": "Jonathan Ekelund"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:00:00",
+    "Talk": {
+      "TalkId": "fe32948d-63d2-45b5-87d4-942ddeb3aefa",
+      "sort": null,
+      "date_created": "2022-10-27T08:35:53.477Z",
+      "date_updated": "2022-12-20T11:58:07.750Z",
+      "Description": "AWS Deepracer is a packaged solution from AWS for getting started in Machine Learning and Reinforcement Learning by training a 1/18th scale car to drive autonomously. In this session you will get to know AWS Deepracer and the basics of Reinforcement learning so you can start training your first ML model to use when competing in the Knowit AWS Deepracer League.",
+      "Duration": 30,
+      "Title": "Getting started with Knowit AWS Deepracer League",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["AWS", "Cloud", "Machine Learning"],
+      "Speakers": [
+        {
+          "id": 58,
+          "Talk_TalkId": "fe32948d-63d2-45b5-87d4-942ddeb3aefa",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud Partnerships",
+            "Description": "AWS Professional certified Solutions Architect and part of Knowit Cloud Partnerships Senior Cloud advisory offering with a background working many years with enterprise costumers helping them build their CCoE and the best practices within cloud.",
+            "SpeakerId": "70904f63-942b-4d34-b980-f8bdf54345f8",
+            "SpeakerName": "Viktor Svensson"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T09:00:00",
+    "Talk": {
+      "TalkId": "196d5ce5-402f-44b7-b5eb-eaeef9f031d0",
+      "sort": null,
+      "date_created": "2022-10-26T13:22:53.320Z",
+      "date_updated": "2023-02-01T12:22:09.290Z",
+      "Description": "Cancelled\n\nHitachi Energy – Advancing a sustainable energy future for all\n\nHitachi Energy is setting up a Data Lake to collect data from HVDC stations and enable them to use that data to enhance reliability and performance for their end customers.\n\nThe Data Lake is built using Azure Synapse and other tools in the Azure eco system.",
+      "Duration": 30,
+      "Title": "[Cancelled] Data Lake for energy sector",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["Cloud", "Azure", "Data Lake"],
+      "Speakers": [
+        {
+          "id": 26,
+          "Talk_TalkId": "196d5ce5-402f-44b7-b5eb-eaeef9f031d0",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Cloud Partnerships",
+            "Description": "Senior Cloud Advisor and Azure Tech Lead at Knowit Cloud Partnership. \nBackground in development, databases and architecture.\nFocusing on Azure but working with AWS and some Google as well.",
+            "SpeakerId": "0d220479-36f2-4807-a7d7-80dde121a377",
+            "SpeakerName": "Jan-Erik Öhman"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:40:00",
+    "Talk": {
+      "TalkId": "0411f0f6-2152-4695-9108-461b91732b25",
+      "sort": null,
+      "date_created": "2022-10-27T07:16:23.328Z",
+      "date_updated": "2022-10-28T08:12:07.275Z",
+      "Description": "OKR is everywhere these days. \nIs it actually useful? Who should care?\nOr, is it actually \"\"Emperor's new clothes\"\"",
+      "Duration": 30,
+      "Title": "OKR - whats the fuzzzzzz",
+      "Language": "norwegian",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Collaboration"],
+      "Speakers": [
+        {
+          "id": 37,
+          "Talk_TalkId": "0411f0f6-2152-4695-9108-461b91732b25",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "n/a",
+            "SpeakerId": "d66d8700-feb2-489a-a887-6e1b14fe31ab",
+            "SpeakerName": "Margrete Iversen"
+          }
+        },
+        {
+          "id": 67,
+          "Talk_TalkId": "0411f0f6-2152-4695-9108-461b91732b25",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Objectnet AS",
+            "Description": "TBA",
+            "SpeakerId": "033ed9cf-1547-47cc-8474-fadc04870649",
+            "SpeakerName": "Asbjørn Gjerde-Lunde"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T10:30:00",
+    "Talk": {
+      "TalkId": "e16bec08-8fba-4f05-a625-9b78eae03716",
+      "sort": null,
+      "date_created": "2022-10-27T08:36:55.662Z",
+      "date_updated": "2022-10-28T08:32:19.809Z",
+      "Description": "How easily we can create a Phone Service using and online API.\nI will introduce a Swedish Service \"\"elks46\"\" and go through how to send SMS and voice message.",
+      "Duration": 10,
+      "Title": "Phone Service API",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": null,
+      "Speakers": [
+        {
+          "id": 59,
+          "Talk_TalkId": "e16bec08-8fba-4f05-a625-9b78eae03716",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Development AB",
+            "Description": "I'm a developer in Sweden working for Knowit Development. I code mostly in C# but also in SQL, JS, Python, C++, mm.\nI work with BackEnd, FrontEnd, integrations and also database.",
+            "SpeakerId": "a60abd8b-2d73-417c-aed8-1f2be68097b6",
+            "SpeakerName": "Willie Esteche"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T09:40:00",
+    "Talk": {
+      "TalkId": "13d58e2a-b4e0-4194-b7a1-0c7a5ce2bd0c",
+      "sort": null,
+      "date_created": "2023-01-17T17:45:50.615Z",
+      "date_updated": "2023-01-17T17:53:32.995Z",
+      "Description": "Why is being well-architected important? We will have an overview of Microsoft Azure Well-Architected Review and discuss on a project use case where the review was performed & the common quality inhibitors.",
+      "Duration": 30,
+      "Title": "Azure Well Architected Assessment",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Architecture", "Azure"],
+      "Speakers": [
+        {
+          "id": 79,
+          "Talk_TalkId": "13d58e2a-b4e0-4194-b7a1-0c7a5ce2bd0c",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Amende",
+            "Description": "Firoz is an experienced solutions architect and Cloud Specialist with 17+ years of experience in infrastructure & cloud services focusing on multi cloud (Azure & AWS) working @ Knowit Amende (Knowit Solutions) in Norway.",
+            "SpeakerId": "785ce76c-54b5-41fe-afab-ee9f39d34333",
+            "SpeakerName": "Firoz Basha Shaik"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 3: Backstage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T09:00:00",
+    "Talk": {
+      "TalkId": "268ecc63-fcb0-4329-b1b1-30fa6f894cf1",
+      "sort": null,
+      "date_created": "2022-10-27T06:31:39.062Z",
+      "date_updated": "2022-10-28T07:58:33.845Z",
+      "Description": "Looking at a code base one often gets the feeling that it should \"\"have better design\"\", be split into more reasonable chunks or have more clarity. However, conducting a refactoring based on a mere feeling is tricky and suggesting PR fixes without good arguments and helpful ideas on what to change and why might be unfruitful and frustrating.\n\nStratified design is a term used e.g by Eric Normand (2021) to describe a functional approach in which code is looked at as layers. Each function / piece of code should belong to a specific layer - stratum - based on how it relates to other code and what goal it has.\n\nIn my client work I have found stratified design to be a valuable tool in both refactoring and building new as it provides a guideline for making actual low-level design decisions. This presentation demonstrates the use of this pattern with two koa based nodejs api endpoints as examples (from an actual project, anonymized for the presentation). I will show how a new api endpoint was added with stratified design in mind and compare the decisions made to an unrefactored endpoint.\"",
+      "Duration": 30,
+      "Title": "Refactoring with stratified design: a Koa api as an example",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Frontend", "Code Quality"],
+      "Speakers": [
+        {
+          "id": 30,
+          "Talk_TalkId": "268ecc63-fcb0-4329-b1b1-30fa6f894cf1",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Solutions Oy",
+            "Description": "Juho Härme is a linguist-turned-software-developer with a PhD in translations studies and three years of experience in web development.",
+            "SpeakerId": "8c68832e-74d2-44f4-a315-46daf056e142",
+            "SpeakerName": "Juho Härme"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 1: Main Stage"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T09:00:00",
+    "Talk": {
+      "TalkId": "aa860d14-181b-4365-998c-a742ec349318",
+      "sort": null,
+      "date_created": "2022-10-27T07:04:25.574Z",
+      "date_updated": "2022-10-28T08:02:15.411Z",
+      "Description": "As developers we should be more aware about the application of ML, my presentation will explain for what type of problems ML is a suitable choice. I will talk about what use cases can be solved using Machine Learning and what are the challenges one might face when using this technology. I want to inspire all engineers to take in consideration that ML is a powerful tool to be considered and used, but also make the community aware for some of the problems in the data which might prevent us from getting results with ML.",
+      "Duration": 60,
+      "Title": "Machine Learning, Use Cases and Challenges",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "long",
+      "MaxAttendants": null,
+      "Tags": ["Machine Learning"],
+      "Speakers": [
+        {
+          "id": 33,
+          "Talk_TalkId": "aa860d14-181b-4365-998c-a742ec349318",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Sydost AB",
+            "Description": "Katerina Doneva is not just another girl in IT. She has been in this industry for more than 14 years and throughout the years she has earned a lot of titles like Certified Senior Java Developer, Agile Team Lead, Product Owner, ML enthusiast but before all an IT engineer who will never stop learning and shearing her knowledge with others.",
+            "SpeakerId": "56ab9d42-d2c7-4d10-9ab3-802adae64b21",
+            "SpeakerName": "Katerina Doneva"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T14:20:00",
+    "Talk": {
+      "TalkId": "18d4b876-8ebd-401b-ab8c-7009150e2cfe",
+      "sort": null,
+      "date_created": "2022-10-27T07:26:32.915Z",
+      "date_updated": "2022-10-28T08:17:24.580Z",
+      "Description": "There are some cool things lurking in Python's modules, and some of them are either relatively unknown, or underused. But wow do they make a difference sometimes!",
+      "Duration": 30,
+      "Title": "Underappreciated Python tools: things you're probably not in love with (yet)",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Python", "Code Quality"],
+      "Speakers": [
+        {
+          "id": 42,
+          "Talk_TalkId": "18d4b876-8ebd-401b-ab8c-7009150e2cfe",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Poland Sp. z o.o.",
+            "Description": "Long-time developer of all things Python, and a slightly rusty developer of all things full-stack in other languages. Trainer, amateur musician, father of two. Possibly a wizard.",
+            "SpeakerId": "14eca241-b179-4f0c-a03e-15aa43d749ca",
+            "SpeakerName": "Michał Woźniczak"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-03T13:00:00",
+    "Talk": {
+      "TalkId": "73a4ce1c-e93e-4087-9310-da44be16ec63",
+      "sort": null,
+      "date_created": "2022-10-26T13:19:06.473Z",
+      "date_updated": "2022-10-28T07:47:02.778Z",
+      "Description": "Broken Access Control is the #1 rated vulnerability of OWASP Top 10. Learn about som common mistakes leading to Broken Access Control and how they can be exploited. Then you will not make these mistakes (again?).",
+      "Duration": 30,
+      "Title": "Broken Access Control: Common misstakes to avoid",
+      "Language": "english",
+      "Difficulty": "beginner",
+      "Type": "short",
+      "MaxAttendants": null,
+      "Tags": ["Security"],
+      "Speakers": [
+        {
+          "id": 23,
+          "Talk_TalkId": "73a4ce1c-e93e-4087-9310-da44be16ec63",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Örebro AB",
+            "Description": "Henrik has been working as a system developer for six years. He has a big interest in most things related to information security and enjoys sharing his knowledge.",
+            "SpeakerId": "7868cb1c-05d0-4e77-a299-2cec4df7ce4d",
+            "SpeakerName": "Henrik Nilsson"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 2: Side Track"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "talk",
+    "StartTime": "2023-02-04T09:00:00",
+    "Talk": {
+      "TalkId": "de646e08-02e7-4d3e-bf12-1db93d919fac",
+      "sort": null,
+      "date_created": "2022-11-15T10:52:32.759Z",
+      "date_updated": null,
+      "Description": "Interactive programming with music and code. Both visually and performative.",
+      "Duration": 30,
+      "Title": "Musical code",
+      "Language": "english",
+      "Difficulty": "intermediate",
+      "Type": "lightning",
+      "MaxAttendants": null,
+      "Tags": ["composing", "music", "python", "generation", "docker", "redis"],
+      "Speakers": [
+        {
+          "id": 76,
+          "Talk_TalkId": "de646e08-02e7-4d3e-bf12-1db93d919fac",
+          "Speaker_SpeakerId": {
+            "CompanyName": "Knowit Experience Bergen AS",
+            "Description": "Scrum master - Networks and programming engineeer and composer.",
+            "SpeakerId": "afaf48d5-0894-4ba0-8c4b-31aa9802154b",
+            "SpeakerName": "Robin Garen Aaberg"
+          }
+        }
+      ]
+    },
+    "Rooms": [
+      {
+        "Room_RoomId": {
+          "Name": "Track 4: Salen"
+        }
+      }
+    ]
+  }
+]

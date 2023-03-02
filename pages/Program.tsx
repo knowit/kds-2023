@@ -35,6 +35,7 @@ import {
   ViewState,
 } from '@devexpress/dx-react-scheduler'
 import { knowitDigitalLolipop } from '../src/styles/colors'
+import program_json from '../src/constants/program.json'
 
 const OverrideStart = styled(Grid)({
   '.Container-container > .MainLayout-container > div > .MainLayout-header > div > div > table > tbody > tr:last-of-type':
@@ -104,6 +105,7 @@ const Program: NextPage = () => {
   const [schedule, setSchedule] = useState<ScheduleItem[]>([])
 
   const getTracks = async () => {
+    /*
     const res = await directus.items('Conference').readByQuery({
       limit: 1,
       fields: [
@@ -140,56 +142,55 @@ const Program: NextPage = () => {
     const currentConference: DirectusConference | undefined =
       conferenceList.find((conference) => conference)
     if (currentConference) {
-      const roomKeys = currentConference.Rooms.filter(
-        (room) => room.Name != 'TBA'
-      )
-        .sort((a, b) => a.Name.localeCompare(b.Name))
-        .map((room) => room.RoomId)
+       */
+    const currentConference = program_json as unknown as DirectusConference
+    const roomKeys = currentConference.Rooms.filter(
+      (room) => room.Name != 'TBA'
+    )
+      .sort((a, b) => a.Name.localeCompare(b.Name))
+      .map((room) => room.RoomId)
 
-      const resourceInstances: Resource[] = [
-        {
-          fieldName: 'roomId',
-          title: 'Tracks',
+    const resourceInstances: Resource[] = [
+      {
+        fieldName: 'roomId',
+        title: 'Tracks',
 
-          instances: currentConference.Rooms.filter(
-            (room) => room.Name != 'TBA'
-          )
-            .sort((a, b) => a.Name.localeCompare(b.Name))
-            .map((room, idx) => {
-              return { text: room.Name, id: idx, color: 'grey' }
-            }),
-          allowMultiple: true,
-        },
-      ]
-      setResource(resourceInstances)
-      const scheduleData: ScheduleItem[] = currentConference.Timeslots.map(
-        (timeslot) => {
-          if (timeslot.Event) {
-            return {
-              title: timeslot.Event.Name,
-              startDate: timeslot.StartTime,
-              endDate: DateTime.fromISO(timeslot.StartTime)
-                .plus({ minutes: timeslot.Event.Duration })
-                .toISO(),
-              roomId: [0],
-              event: timeslot.Event,
-            }
-          }
+        instances: currentConference.Rooms.filter((room) => room.Name != 'TBA')
+          .sort((a, b) => a.Name.localeCompare(b.Name))
+          .map((room, idx) => {
+            return { text: room.Name, id: idx, color: 'grey' }
+          }),
+        allowMultiple: true,
+      },
+    ]
+    setResource(resourceInstances)
+    const scheduleData: ScheduleItem[] = currentConference.Timeslots.map(
+      (timeslot) => {
+        if (timeslot.Event) {
           return {
-            title: timeslot.Talk.Title,
+            title: timeslot.Event.Name,
             startDate: timeslot.StartTime,
             endDate: DateTime.fromISO(timeslot.StartTime)
-              .plus({ minutes: timeslot.Talk.Duration })
+              .plus({ minutes: timeslot.Event.Duration })
               .toISO(),
-            roomId: timeslot.Rooms.map((room) =>
-              roomKeys.indexOf(room.Room_RoomId.RoomId)
-            ),
-            talk: timeslot.Talk,
+            roomId: [0],
+            event: timeslot.Event,
           }
         }
-      )
-      setSchedule(scheduleData)
-    }
+        return {
+          title: timeslot.Talk.Title,
+          startDate: timeslot.StartTime,
+          endDate: DateTime.fromISO(timeslot.StartTime)
+            .plus({ minutes: timeslot.Talk.Duration })
+            .toISO(),
+          roomId: timeslot.Rooms.map((room) =>
+            roomKeys.indexOf(room.Room_RoomId.RoomId)
+          ),
+          talk: timeslot.Talk,
+        }
+      }
+    )
+    setSchedule(scheduleData)
   }
   useEffect(() => {
     getTracks()
@@ -211,9 +212,7 @@ const Program: NextPage = () => {
                 <strong>!important</strong>
                 The tracks are split into columns when in mobile. You will find
                 the other tracks by scrolling. Some mobile browsers might have
-                finicky touch interactions, so try to hit different regions. The
-                developer will try to attend some test talks to alleviate future
-                issues.
+                finicky touch interactions, so try to hit different regions.
               </Typography>
             )}
           </Grid>
@@ -255,13 +254,17 @@ const Program: NextPage = () => {
           </Grid>
         </Paper>
       </Grid>
-      <OverrideStart item container sx={{}}>
+      <OverrideStart
+        item
+        container
+        sx={{ overflowY: 'scroll', minWidth: '600px' }}
+      >
         {schedule.length > 0 && resource.length > 0 ? (
           <Scheduler data={schedule}>
             <ViewState currentDate={currentDay} />
             <GroupingState
               grouping={[{ resourceName: 'roomId' }]}
-              groupOrientation={() => (isMobile ? 'Vertical' : 'Horizontal')}
+              groupOrientation={() => 'Horizontal'}
             />
             <DayView
               startDayHour={currentDay == '2023-02-03' ? 10 : 8}

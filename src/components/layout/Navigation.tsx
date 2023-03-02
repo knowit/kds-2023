@@ -65,6 +65,7 @@ const navItems: NavItems[] = [
   { href: '/CodeOfConduct', label: 'CoC' },
   //{ href: '/Registration', label: 'Registration' },
   { href: '/Logo', label: 'Logo' },
+  { href: '/Statistics', label: 'Statistics' },
   { href: 'http://kds-2021.knowit.no/', label: 'KDS 2021' },
 ]
 
